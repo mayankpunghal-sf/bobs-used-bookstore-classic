@@ -1,10 +1,12 @@
-﻿using Microsoft.Owin;
-
 namespace Bookstore.Web.Helpers
 {
-    public static class OwinRequestExtensions
+    /// <summary>
+    /// HTTP request helpers for ASP.NET Core (replaces the OWIN IOwinRequest extensions).
+    /// </summary>
+    public static class HttpRequestExtensions
     {
-        public static string GetReturnUrl(this IOwinRequest request)
+        /// <summary>Returns the absolute URI used as the OIDC callback (redirect) URI.</summary>
+        public static string GetReturnUrl(this HttpRequest request)
         {
             return $"{request.Scheme}://{request.Host}/signin-oidc";
         }
