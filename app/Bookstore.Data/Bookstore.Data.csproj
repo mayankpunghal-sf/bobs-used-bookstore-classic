@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -73,6 +73,9 @@
   <ItemGroup>
     <Compile Include="ApplicationDbContext.cs" />
     <Compile Include="BookstoreConfiguration.cs" />
+    <Compile Include="Database\DatabaseProvider.cs" />
+    <Compile Include="Database\DatabaseProviderAccessor.cs" />
+    <Compile Include="Database\NpgsqlLikeInterceptor.cs" />
     <Compile Include="FileServices\LocalFileService.cs" />
     <Compile Include="FileServices\S3FileService.cs" />
     <Compile Include="ImageResizeService\ImageResizeService.cs" />

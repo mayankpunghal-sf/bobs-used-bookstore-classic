@@ -1,4 +1,4 @@
-﻿using System.IO;
+using System.IO;
 using System.Reflection;
 using System.Web;
 using System.Web.Mvc;
@@ -42,8 +42,13 @@ namespace Bookstore.Web
             builder.RegisterType<ShoppingCartService>().As<IShoppingCartService>();
             builder.RegisterType<ImageResizeService>().As<IImageResizeService>();
 
-            var connectionString = BookstoreConfiguration.GetConnectionString("BookstoreDatabaseConnection");
-            builder.RegisterType<ApplicationDbContext>().WithParameter("connectionString", connectionString).InstancePerRequest();
+            // Resolve the database engine once at startup. The context is constructed with
+            // the connection-string NAME selected for the resolved provider; EF6 then picks
+            // the database provider from that entry's providerName attribute.
+            DatabaseProviderAccessor.Configure();
+
+            var connectionStringName = DatabaseProviderAccessor.CurrentConnectionStringName;
+            builder.RegisterType<ApplicationDbContext>().WithParameter("connectionString", connectionStringName).InstancePerRequest();
 
             builder.RegisterType<CustomerRepository>().As<ICustomerRepository>();
             builder.RegisterType<AddressRepository>().As<IAddressRepository>();
