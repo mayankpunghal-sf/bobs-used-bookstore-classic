@@ -2,6 +2,9 @@
 .cdk.staging
 cdk.out
 
+# Graphify incremental-extraction cache
+graphify-out/
+
 # user-specific CDK files
 cdk.context.json
 

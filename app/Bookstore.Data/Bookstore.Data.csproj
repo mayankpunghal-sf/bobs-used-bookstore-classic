@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationDbContext.cs" />
+    <Compile Include="DatabaseProviders.cs" />
     <Compile Include="BookstoreConfiguration.cs" />
     <Compile Include="FileServices\LocalFileService.cs" />
     <Compile Include="FileServices\S3FileService.cs" />
@@ -107,6 +108,9 @@
     </PackageReference>
     <PackageReference Include="EntityFramework">
       <Version>6.5.1</Version>
+    </PackageReference>
+    <PackageReference Include="EntityFramework6.Npgsql">
+      <Version>6.4.3</Version>
     </PackageReference>
     <PackageReference Include="Magick.NET-Q8-AnyCPU">
       <Version>14.6.0</Version>
