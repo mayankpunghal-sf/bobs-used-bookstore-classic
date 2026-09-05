@@ -8,6 +8,7 @@ using Autofac;
 using Autofac.Integration.Mvc;
 using BobsBookstoreClassic.Data;
 using Bookstore.Data;
+using System.Data.Common;
 using Bookstore.Data.FileServices;
 using Bookstore.Data.ImageResizeService;
 using Bookstore.Data.ImageValidationServices;
@@ -42,8 +43,18 @@ namespace Bookstore.Web
             builder.RegisterType<ShoppingCartService>().As<IShoppingCartService>();
             builder.RegisterType<ImageResizeService>().As<IImageResizeService>();
 
-            var connectionString = BookstoreConfiguration.GetConnectionString("BookstoreDatabaseConnection");
-            builder.RegisterType<ApplicationDbContext>().WithParameter("connectionString", connectionString).InstancePerRequest();
+            builder.RegisterInstance<IDatabaseProviderAccessor>(DatabaseProviderAccessor.Instance);
+
+            builder.RegisterType<DatabaseConnectionFactory>().As<IDbConnectionFactory>().InstancePerRequest();
+
+            builder.RegisterType<ApplicationDbContext>()
+                .InstancePerRequest()
+                .WithParameter(
+                    (pi, ctx) => pi.ParameterType == typeof(DbConnection),
+                    (pi, ctx) => ctx.Resolve<IDbConnectionFactory>().CreateConnection())
+                .WithParameter(
+                    (pi, ctx) => pi.ParameterType == typeof(bool) && pi.Name == "contextOwnsConnection",
+                    (pi, ctx) => (object)true);
 
             builder.RegisterType<CustomerRepository>().As<ICustomerRepository>();
             builder.RegisterType<AddressRepository>().As<IAddressRepository>();
