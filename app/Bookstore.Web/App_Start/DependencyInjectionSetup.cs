@@ -1,4 +1,6 @@
-﻿using System.IO;
+using System;
+using System.Data.Common;
+using System.IO;
 using System.Reflection;
 using System.Web;
 using System.Web.Mvc;
@@ -42,8 +44,37 @@ namespace Bookstore.Web
             builder.RegisterType<ShoppingCartService>().As<IShoppingCartService>();
             builder.RegisterType<ImageResizeService>().As<IImageResizeService>();
 
-            var connectionString = BookstoreConfiguration.GetConnectionString("BookstoreDatabaseConnection");
-            builder.RegisterType<ApplicationDbContext>().WithParameter("connectionString", connectionString).InstancePerRequest();
+            // Resolve the target database engine once at startup: one config switch selects
+            // both the named connection string and the ADO.NET/EF6 provider. No default
+            // engine, no connection-string sniffing (dual-db-port R7).
+            var databaseProvider = new DatabaseProviderAccessor(DatabaseProviderAccessor.Parse(
+                BookstoreConfiguration.GetSetting(DatabaseProviderAccessor.ConfigKey)));
+
+            var connectionString = BookstoreConfiguration.GetConnectionString(databaseProvider.ConnectionStringName);
+
+            if (string.IsNullOrWhiteSpace(connectionString))
+            {
+                throw new InvalidOperationException(
+                    $"Connection string '{databaseProvider.ConnectionStringName}' for database provider " +
+                    $"'{databaseProvider.Provider}' is missing or empty. Add a non-empty value to <connectionStrings>.");
+            }
+
+            var dbConnectionFactory = DbProviderFactories.GetFactory(databaseProvider.ProviderInvariant);
+
+            builder.Register(c =>
+            {
+                DbConnection connection = dbConnectionFactory.CreateConnection();
+
+                if (connection == null)
+                {
+                    throw new InvalidOperationException(
+                        $"DbProviderFactory for invariant '{databaseProvider.ProviderInvariant}' did not create a connection.");
+                }
+
+                connection.ConnectionString = connectionString;
+
+                return new ApplicationDbContext(connection, databaseProvider.Provider);
+            }).InstancePerRequest();
 
             builder.RegisterType<CustomerRepository>().As<ICustomerRepository>();
             builder.RegisterType<AddressRepository>().As<IAddressRepository>();
