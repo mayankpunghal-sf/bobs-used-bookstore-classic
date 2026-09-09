@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations.Schema;
 using Bookstore.Domain.Addresses;
 using Bookstore.Domain.Books;
 using Bookstore.Domain.Carts;
@@ -36,8 +36,26 @@ namespace Bookstore.Data
             // Update to remove the pluralization to match the modern version
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
+            // Engine-specific model configuration, resolved once from the
+            // startup provider switch (no provider checks anywhere else).
+            // SQL Server keeps the byte-for-byte legacy model.
+            if (DatabaseProviderAccessor.Current == DatabaseProvider.SqlServer)
+            {
+                modelBuilder.Entity<Customer>().Property(x => x.Sub).HasColumnType("nvarchar").HasMaxLength(450);
+            }
+            else
+            {
+                // PostgreSQL: nvarchar has no equivalent - use the provider's
+                // default string mapping with the same max length.
+                modelBuilder.Entity<Customer>().Property(x => x.Sub).HasMaxLength(450);
 
-            modelBuilder.Entity<Customer>().Property(x => x.Sub).HasColumnType("nvarchar").HasMaxLength(450);
+                // RowVersion: SQL Server's rowversion type has no PostgreSQL
+                // equivalent and the Npgsql EF6 provider has no built-in xmin
+                // mapping for EF6, so the concurrency token is not mapped on
+                // the PostgreSQL path. Flagged in DUAL_DB_PORT_REPORT.md §8.
+                modelBuilder.Types().Configure(c => c.Ignore("RowVersion"));
+            }
+
             modelBuilder.Entity<Customer>().HasIndex(x => x.Sub).IsUnique();
 
             modelBuilder.Entity<Book>().HasRequired(x => x.Publisher).WithMany().HasForeignKey(x => x.PublisherId).WillCascadeOnDelete(false);
