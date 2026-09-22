@@ -1,9 +1,19 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 
 namespace BobsBookstoreClassic.Data
 {
+    /// <summary>
+    /// Database engine backing the bookstore. Resolved once at startup from the
+    /// 'Data:Provider' appSetting (default SqlServer) — dual-db-port R7.
+    /// </summary>
+    public enum DatabaseProvider
+    {
+        SqlServer,
+        PostgreSql
+    }
+
     public sealed class BookstoreConfiguration
     {
         private static readonly Lazy<BookstoreConfiguration> Lazy = new Lazy<BookstoreConfiguration>(() => new BookstoreConfiguration());
@@ -57,6 +67,19 @@ namespace BobsBookstoreClassic.Data
         public static string GetConnectionString(string key)
         {
             return Instance._connectionStrings[key];
+        }
+
+        /// <summary>
+        /// Resolves the configured database provider from the 'Data:Provider'
+        /// appSetting (default SqlServer). Read once per composition root start.
+        /// </summary>
+        public static DatabaseProvider GetDatabaseProvider()
+        {
+            string value;
+            return Instance._appSettings.TryGetValue("Data:Provider", out value)
+                && string.Equals(value, "PostgreSql", StringComparison.OrdinalIgnoreCase)
+                ? DatabaseProvider.PostgreSql
+                : DatabaseProvider.SqlServer;
         }
 
     }
