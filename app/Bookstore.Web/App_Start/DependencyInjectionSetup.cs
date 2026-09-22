@@ -1,4 +1,4 @@
-﻿using System.IO;
+using System.IO;
 using System.Reflection;
 using System.Web;
 using System.Web.Mvc;
@@ -11,6 +11,7 @@ using Bookstore.Data;
 using Bookstore.Data.FileServices;
 using Bookstore.Data.ImageResizeService;
 using Bookstore.Data.ImageValidationServices;
+using Bookstore.Data.Provider;
 using Bookstore.Data.Repositories;
 using Bookstore.Domain;
 using Bookstore.Domain.Addresses;
@@ -42,7 +43,12 @@ namespace Bookstore.Web
             builder.RegisterType<ShoppingCartService>().As<IShoppingCartService>();
             builder.RegisterType<ImageResizeService>().As<IImageResizeService>();
 
-            var connectionString = BookstoreConfiguration.GetConnectionString("BookstoreDatabaseConnection");
+            var providerAccessor = new ConfigDatabaseProviderAccessor();
+            var connectionKey = providerAccessor.Provider == DatabaseProvider.PostgreSql
+                ? "BookstoreDatabaseConnection_PostgreSql"
+                : "BookstoreDatabaseConnection";
+            var connectionString = BookstoreConfiguration.GetConnectionString(connectionKey);
+            builder.RegisterInstance(providerAccessor).As<IDatabaseProviderAccessor>();
             builder.RegisterType<ApplicationDbContext>().WithParameter("connectionString", connectionString).InstancePerRequest();
 
             builder.RegisterType<CustomerRepository>().As<ICustomerRepository>();
