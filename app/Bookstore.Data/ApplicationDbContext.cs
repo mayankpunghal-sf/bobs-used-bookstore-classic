@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations.Schema;
 using Bookstore.Domain.Addresses;
 using Bookstore.Domain.Books;
 using Bookstore.Domain.Carts;
@@ -6,14 +6,18 @@ using Bookstore.Domain.Customers;
 using Bookstore.Domain.Offers;
 using Bookstore.Domain.Orders;
 using Bookstore.Domain.ReferenceData;
+using System.Data.Common;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using Npgsql;
 
 namespace Bookstore.Data
 {
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(string connectionString) : base(connectionString) { }
+
+        public ApplicationDbContext(DbConnection existingConnection, bool contextOwnsConnection) : base(existingConnection, contextOwnsConnection) { }
 
         public DbSet<Address> Address { get; set; }
 
@@ -39,6 +43,13 @@ namespace Bookstore.Data
 
             modelBuilder.Entity<Customer>().Property(x => x.Sub).HasColumnType("nvarchar").HasMaxLength(450);
             modelBuilder.Entity<Customer>().HasIndex(x => x.Sub).IsUnique();
+
+            if (Database.Connection is NpgsqlConnection)
+            {
+                // PostgreSQL has no nvarchar type; map the same column to varchar on the PG provider only.
+                // Model-building fork at startup only — no runtime type checks in query paths (R7).
+                modelBuilder.Entity<Customer>().Property(x => x.Sub).HasColumnType("varchar").HasMaxLength(450);
+            }
 
             modelBuilder.Entity<Book>().HasRequired(x => x.Publisher).WithMany().HasForeignKey(x => x.PublisherId).WillCascadeOnDelete(false);
             modelBuilder.Entity<Book>().HasRequired(x => x.BookType).WithMany().HasForeignKey(x => x.BookTypeId).WillCascadeOnDelete(false);

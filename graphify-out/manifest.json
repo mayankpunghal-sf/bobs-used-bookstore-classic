@@ -1,0 +1,2936 @@
+{
+  "BobsBookstoreClassic.sln": {
+    "mtime": 1790073258.6909487,
+    "seen": 1790073299.4111896,
+    "ast_hash": "ee78f0c80cfe00e5ebbdf05df5036b8c",
+    "semantic_hash": ""
+  },
+  "LogMonitorConfig.json": {
+    "mtime": 1790073258.696496,
+    "seen": 1790073299.411207,
+    "ast_hash": "c311825c53a17d4c9e8755cd17d4a567",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Cdk/Bookstore.Cdk.csproj": {
+    "mtime": 1790073258.7011242,
+    "seen": 1790073299.4112139,
+    "ast_hash": "61d70867d5ebccbd500dceddc866b606",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Cdk/CoreStack.cs": {
+    "mtime": 1790073258.7031403,
+    "seen": 1790073299.411218,
+    "ast_hash": "eb8ce6399efab4fb1d4bbb053fb3cd09",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Cdk/DatabaseStack.cs": {
+    "mtime": 1790073258.7031403,
+    "seen": 1790073299.4112217,
+    "ast_hash": "c07544b92c27ee818aa1fd112ac7654c",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Cdk/EcsStack.cs": {
+    "mtime": 1790073258.7066305,
+    "seen": 1790073299.411225,
+    "ast_hash": "2b4a946911ec87474bd66256fe2d6822",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Cdk/GlobalSuppressions.cs": {
+    "mtime": 1790073258.7066305,
+    "seen": 1790073299.411229,
+    "ast_hash": "dfcaf4090976b77fc2794982d3c37f95",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Cdk/NetworkStack.cs": {
+    "mtime": 1790073258.7066305,
+    "seen": 1790073299.4112325,
+    "ast_hash": "b7d1a3b4c12bbd36b56ea79eed78c948",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Cdk/Program.cs": {
+    "mtime": 1790073258.7066305,
+    "seen": 1790073299.4112353,
+    "ast_hash": "cb16451d9b00e2167f38b88d248092d0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Common/Bookstore.Common.csproj": {
+    "mtime": 1790073258.7066305,
+    "seen": 1790073299.4112377,
+    "ast_hash": "3e28bdc216614fa71667356d5ffe71a9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Common/Constants.cs": {
+    "mtime": 1790073258.7149627,
+    "seen": 1790073299.4112403,
+    "ast_hash": "aad360ba56befaaf9bd7aed98a5eac8f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/ApplicationDbContext.cs": {
+    "mtime": 1790073258.7169945,
+    "seen": 1790073299.411244,
+    "ast_hash": "59632243aea7291e05c0d3a0e63ffcbf",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/Bookstore.Data.csproj": {
+    "mtime": 1790073258.7211685,
+    "seen": 1790073299.4112468,
+    "ast_hash": "06d95a5aee374bb97ab4f2d1f7819d7a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/BookstoreConfiguration.cs": {
+    "mtime": 1790073258.723707,
+    "seen": 1790073299.4112504,
+    "ast_hash": "79f5a87696f452b423daaca9da5d5508",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/BookstoreDbInitializer.cs": {
+    "mtime": 1790073258.7254057,
+    "seen": 1790073299.4112527,
+    "ast_hash": "ff69fde2e7cd076864ab9353013e09a1",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/FileServices/LocalFileService.cs": {
+    "mtime": 1790073258.7283628,
+    "seen": 1790073299.4112551,
+    "ast_hash": "1b4ca714537287d170599822eaaea720",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/FileServices/S3FileService.cs": {
+    "mtime": 1790073258.7303038,
+    "seen": 1790073299.4112575,
+    "ast_hash": "90d7211d1d4bebd50959c5e947fd81e9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/ImageResizeService/ImageResizeService.cs": {
+    "mtime": 1790073258.7322912,
+    "seen": 1790073299.4112604,
+    "ast_hash": "83c0c5fe914724fbb1a8e433dd16eb3c",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/ImageValidationServices/LocalImageValidationService.cs": {
+    "mtime": 1790073258.7348883,
+    "seen": 1790073299.4112635,
+    "ast_hash": "dce22257855ad52774e6dcb48b5a04d1",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/ImageValidationServices/RekognitionImageValidationService.cs": {
+    "mtime": 1790073258.7386298,
+    "seen": 1790073299.411266,
+    "ast_hash": "944624d1ce4cc7ec29d1b637a0552e68",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/PaginatedList.cs": {
+    "mtime": 1790073258.7431679,
+    "seen": 1790073299.4112682,
+    "ast_hash": "0542c52fa020fd89421eb09eb78e6ce2",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/Properties/AssemblyInfo.cs": {
+    "mtime": 1790073258.745178,
+    "seen": 1790073299.4112706,
+    "ast_hash": "4477e0ccbaa09949452a13f41a14ac30",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/Repositories/AddressRepository.cs": {
+    "mtime": 1790073258.7487416,
+    "seen": 1790073299.4112751,
+    "ast_hash": "d46ba517f4d659156a7faf1f4a58622e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/Repositories/BookRepository.cs": {
+    "mtime": 1790073258.7487416,
+    "seen": 1790073299.4112778,
+    "ast_hash": "d89ecffd154c6a48b360df4b976596e0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/Repositories/CustomerRepository.cs": {
+    "mtime": 1790073258.753006,
+    "seen": 1790073299.4112804,
+    "ast_hash": "79dffbe5c29cb612555ed20001f05eff",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/Repositories/OfferRepository.cs": {
+    "mtime": 1790073258.755578,
+    "seen": 1790073299.4112833,
+    "ast_hash": "0423942f2f2e8bb87239730c9b77178b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/Repositories/OrderRepository.cs": {
+    "mtime": 1790073258.756895,
+    "seen": 1790073299.4112864,
+    "ast_hash": "d08a1c828654f80f483ba039e0e13216",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/Repositories/ReferenceDataRepository.cs": {
+    "mtime": 1790073258.756895,
+    "seen": 1790073299.4112885,
+    "ast_hash": "a7aac0c53423cab52cbc6980d4b0e55b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Data/Repositories/ShoppingCartRepository.cs": {
+    "mtime": 1790073258.756895,
+    "seen": 1790073299.4112911,
+    "ast_hash": "bff193db5767f0fc4e63d4d381b63467",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Addresses/Address.cs": {
+    "mtime": 1790073258.766088,
+    "seen": 1790073299.4112942,
+    "ast_hash": "5ced7feac3e7459e82f590424edce1fb",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Addresses/AddressDtos.cs": {
+    "mtime": 1790073258.768644,
+    "seen": 1790073299.4112966,
+    "ast_hash": "ef2651107d505747b2cde1da2a03cf1a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Addresses/AddressService.cs": {
+    "mtime": 1790073258.7694068,
+    "seen": 1790073299.4112992,
+    "ast_hash": "7942289e4051d54d46b42c7f3016e02d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Addresses/IAddressRepository.cs": {
+    "mtime": 1790073258.7720735,
+    "seen": 1790073299.4113019,
+    "ast_hash": "fb226ae964214e659487f43f0ebeddbb",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/AdminUser/DbSecrets.cs": {
+    "mtime": 1790073258.774192,
+    "seen": 1790073299.4113042,
+    "ast_hash": "480e557398abf449b560a75e4b6c846b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Books/Book.cs": {
+    "mtime": 1790073258.7767384,
+    "seen": 1790073299.411307,
+    "ast_hash": "8e69203962de012903fde1e17b5e3ab7",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Books/BookDtos.cs": {
+    "mtime": 1790073258.7767384,
+    "seen": 1790073299.4113097,
+    "ast_hash": "e1eb719b97f66ac73f3b5f290a569c00",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Books/BookFilters.cs": {
+    "mtime": 1790073258.781392,
+    "seen": 1790073299.4113126,
+    "ast_hash": "11cdb239c0d2e4858cf8aef4c61e35db",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Books/BookResult.cs": {
+    "mtime": 1790073258.781392,
+    "seen": 1790073299.4113152,
+    "ast_hash": "715fd8351d690d0c5fbdc901b990acbd",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Books/BookService.cs": {
+    "mtime": 1790073258.7834113,
+    "seen": 1790073299.4113178,
+    "ast_hash": "5441dc0b2defa316b5a21442aa3d2d8a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Books/BookStatistics.cs": {
+    "mtime": 1790073258.7861428,
+    "seen": 1790073299.4113207,
+    "ast_hash": "c6ac3e446d485dd1bb8d0052dca0992b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Books/IBookRepository.cs": {
+    "mtime": 1790073258.78881,
+    "seen": 1790073299.411323,
+    "ast_hash": "1b334aeaae23905a9245ffb5adc070df",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Bookstore.Domain.csproj": {
+    "mtime": 1790073258.789828,
+    "seen": 1790073299.4113257,
+    "ast_hash": "b814c5d341452e44c3021c276c41c67f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Carts/IShoppingCartRepository.cs": {
+    "mtime": 1790073258.7926168,
+    "seen": 1790073299.411328,
+    "ast_hash": "d8c646488d40982db7881f51109be35f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Carts/ShoppingCart.cs": {
+    "mtime": 1790073258.794153,
+    "seen": 1790073299.4113326,
+    "ast_hash": "093ce2e4d395225f19fbebe3ca5d2a6d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Carts/ShoppingCartDtos.cs": {
+    "mtime": 1790073258.794153,
+    "seen": 1790073299.4113352,
+    "ast_hash": "f8d5c352160b2b75018dab19de33f803",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Carts/ShoppingCartItem.cs": {
+    "mtime": 1790073258.7967074,
+    "seen": 1790073299.4113374,
+    "ast_hash": "8b47b361f539c079a97e46b61b541ba5",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Carts/ShoppingCartService.cs": {
+    "mtime": 1790073258.8002734,
+    "seen": 1790073299.4113398,
+    "ast_hash": "7d611ce505dd3192c9ab8c67e0433758",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Customers/Customer.cs": {
+    "mtime": 1790073258.802292,
+    "seen": 1790073299.411342,
+    "ast_hash": "3188872f3d8506e73e0d50aedd6b9a95",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Customers/CustomerDtos.cs": {
+    "mtime": 1790073258.804311,
+    "seen": 1790073299.4113443,
+    "ast_hash": "919ec3b64ad09c134f8f7456f83fd31f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Customers/CustomerService.cs": {
+    "mtime": 1790073258.804311,
+    "seen": 1790073299.4113467,
+    "ast_hash": "668c52b17127aea2977ca4f773ba044f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Customers/ICustomerRepository.cs": {
+    "mtime": 1790073258.8068297,
+    "seen": 1790073299.4113493,
+    "ast_hash": "9520395bf0499179d693f7730838938d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/DateTimeExtensions.cs": {
+    "mtime": 1790073258.8089046,
+    "seen": 1790073299.4113514,
+    "ast_hash": "1e22dacb071c28ec60dcad479db25442",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Entity.cs": {
+    "mtime": 1790073258.8089046,
+    "seen": 1790073299.4113543,
+    "ast_hash": "360257d38a293c8bc74c35054f43b241",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/EnumExtensions.cs": {
+    "mtime": 1790073258.8089046,
+    "seen": 1790073299.4113572,
+    "ast_hash": "9a425e9ab03c3470792f97651bebbeed",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/IFileService.cs": {
+    "mtime": 1790073258.8137999,
+    "seen": 1790073299.4113603,
+    "ast_hash": "2916aa1c15d754ee20e1e2eb7dea27da",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/IImageResizeService.cs": {
+    "mtime": 1790073258.8143134,
+    "seen": 1790073299.411363,
+    "ast_hash": "20aab15398f2a4a39d7b879def8876d0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/IImageValidationService.cs": {
+    "mtime": 1790073258.8153555,
+    "seen": 1790073299.411365,
+    "ast_hash": "7d44b5129937ff1f5d8f1e6ddd32feba",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/IPaginatedList.cs": {
+    "mtime": 1790073258.8168674,
+    "seen": 1790073299.4113677,
+    "ast_hash": "574ab8fc9c106444959fa04d618edcc9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Offers/IOfferRepository.cs": {
+    "mtime": 1790073258.8196514,
+    "seen": 1790073299.4113708,
+    "ast_hash": "09ef6c2f1d43128bd8085ac4810ae6d1",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Offers/Offer.cs": {
+    "mtime": 1790073258.8208199,
+    "seen": 1790073299.4113731,
+    "ast_hash": "86afa1f7e850aceef071ef5650ce8a10",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Offers/OfferDtos.cs": {
+    "mtime": 1790073258.822835,
+    "seen": 1790073299.4113753,
+    "ast_hash": "30f39bf890bc94a2795e5d138614dbc6",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Offers/OfferFilters.cs": {
+    "mtime": 1790073258.8238504,
+    "seen": 1790073299.411378,
+    "ast_hash": "13927811994d6d59bb75586440971b7e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Offers/OfferService.cs": {
+    "mtime": 1790073258.8253486,
+    "seen": 1790073299.41138,
+    "ast_hash": "09353001290b072af7eef93e10033fcd",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Offers/OfferStatistics.cs": {
+    "mtime": 1790073258.8269856,
+    "seen": 1790073299.4113824,
+    "ast_hash": "b2a4bfe1780f635c162cc593a82f0575",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Offers/OfferStatus.cs": {
+    "mtime": 1790073258.8289082,
+    "seen": 1790073299.411385,
+    "ast_hash": "5bbad3854aebae887820481841fef45f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Orders/IOrderRepository.cs": {
+    "mtime": 1790073258.8310719,
+    "seen": 1790073299.4113877,
+    "ast_hash": "da64b293aa740a84f574fdcc0a8fa297",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Orders/Order.cs": {
+    "mtime": 1790073258.8322062,
+    "seen": 1790073299.4113905,
+    "ast_hash": "8a280f933bb693f656342fd20f873add",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Orders/OrderDtos.cs": {
+    "mtime": 1790073258.8338573,
+    "seen": 1790073299.411393,
+    "ast_hash": "7c1136698124e6339f289a3a0c906d3c",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Orders/OrderFilters.cs": {
+    "mtime": 1790073258.8344023,
+    "seen": 1790073299.411395,
+    "ast_hash": "9c10bc063cd9972996bb1ca1aa3c4ea3",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Orders/OrderItem.cs": {
+    "mtime": 1790073258.836929,
+    "seen": 1790073299.411398,
+    "ast_hash": "97bb3b1939244a94b5a0cae655a78eaa",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Orders/OrderService.cs": {
+    "mtime": 1790073258.836929,
+    "seen": 1790073299.4114006,
+    "ast_hash": "486c712872c6f5fa6b60c2b88f3258d8",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Orders/OrderStatistics.cs": {
+    "mtime": 1790073258.836929,
+    "seen": 1790073299.4114025,
+    "ast_hash": "98f9b9fbee0ea101f64440e2f34e6000",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Orders/OrderStatus.cs": {
+    "mtime": 1790073258.8419206,
+    "seen": 1790073299.4114053,
+    "ast_hash": "af2248251a199568b0b0ecdf452aa59c",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/Properties/AssemblyInfo.cs": {
+    "mtime": 1790073258.8439405,
+    "seen": 1790073299.4114077,
+    "ast_hash": "4fa98db1b31da4dd9265bc28c3f6a2d4",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/ReferenceData/IReferenceDataRepository.cs": {
+    "mtime": 1790073258.845957,
+    "seen": 1790073299.41141,
+    "ast_hash": "00030dd8e68042fc271bce92de644903",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/ReferenceData/ReferenceDataDtos.cs": {
+    "mtime": 1790073258.846972,
+    "seen": 1790073299.411413,
+    "ast_hash": "8d6cd45f7deb2f3274ced8b3332e659a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/ReferenceData/ReferenceDataFilters.cs": {
+    "mtime": 1790073258.846972,
+    "seen": 1790073299.4114153,
+    "ast_hash": "9f81ad428dc1a8a34542c9bbc201ab2b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/ReferenceData/ReferenceDataItem.cs": {
+    "mtime": 1790073258.8512423,
+    "seen": 1790073299.4114182,
+    "ast_hash": "8f80add533775c7d4fae2a968253280b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/ReferenceData/ReferenceDataService.cs": {
+    "mtime": 1790073258.8512423,
+    "seen": 1790073299.4114206,
+    "ast_hash": "1238543abbe98c4ed48cd9da0318a5c7",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Domain/ReferenceData/ReferenceDataType.cs": {
+    "mtime": 1790073258.854549,
+    "seen": 1790073299.411423,
+    "ast_hash": "991bb7a1c039e4009b8a0d4018d10bae",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/App_Start/AuthenticationSetup.cs": {
+    "mtime": 1790073258.8565667,
+    "seen": 1790073299.4114256,
+    "ast_hash": "e365c569a6a8424adbad1000923969ac",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/App_Start/BundleConfig.cs": {
+    "mtime": 1790073258.8596618,
+    "seen": 1790073299.4114275,
+    "ast_hash": "2ada079fb97d1e68068eaf0619edfb5d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/App_Start/ConfigurationSetup.cs": {
+    "mtime": 1790073258.8616815,
+    "seen": 1790073299.41143,
+    "ast_hash": "7f3c57244dec0f1db5514ccaebc7b6ef",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/App_Start/DependencyInjectionSetup.cs": {
+    "mtime": 1790073258.863193,
+    "seen": 1790073299.4114323,
+    "ast_hash": "b2b0810f341378672f4ab08560569ccb",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/App_Start/FilterConfig.cs": {
+    "mtime": 1790073258.863193,
+    "seen": 1790073299.411435,
+    "ast_hash": "4e53622150eaa86995b342c7ba1167ab",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/App_Start/LoggingSetup.cs": {
+    "mtime": 1790073258.863193,
+    "seen": 1790073299.411437,
+    "ast_hash": "ce8ed92c80f9093f7777a1cdf26e67f4",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/App_Start/RouteConfig.cs": {
+    "mtime": 1790073258.8680174,
+    "seen": 1790073299.4114428,
+    "ast_hash": "7760599810b9a4cb771005574af3cfcd",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/AdminAreaRegistration.cs": {
+    "mtime": 1790073258.8716643,
+    "seen": 1790073299.411445,
+    "ast_hash": "071e1dfd6a9fc3694e2f498cc3439939",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Controllers/AdminAreaControllerBase.cs": {
+    "mtime": 1790073258.8745232,
+    "seen": 1790073299.4114475,
+    "ast_hash": "721c957bb503fc181e563f585e2eec6a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Controllers/DashboardController.cs": {
+    "mtime": 1790073258.8745232,
+    "seen": 1790073299.41145,
+    "ast_hash": "97a0395953e5655de95ef2c4300b0ac5",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Controllers/ErrorController.cs": {
+    "mtime": 1790073258.8765366,
+    "seen": 1790073299.4114528,
+    "ast_hash": "33a49d859e5f539dcd059d58ffd8a14d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Controllers/InventoryController.cs": {
+    "mtime": 1790073258.8786416,
+    "seen": 1790073299.411455,
+    "ast_hash": "fd93ab25370802e02bd4d6721e98c9ff",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Controllers/OffersController.cs": {
+    "mtime": 1790073258.8786416,
+    "seen": 1790073299.411458,
+    "ast_hash": "3e4c9ce30b8d54e94edca69e1676defb",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Controllers/OrdersController.cs": {
+    "mtime": 1790073258.8786416,
+    "seen": 1790073299.4114602,
+    "ast_hash": "bb77057813f945097336270e9f4d0298",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Controllers/ReferenceDataController.cs": {
+    "mtime": 1790073258.8786416,
+    "seen": 1790073299.411463,
+    "ast_hash": "78bee5503fee6bfba961fcf241ab306f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Models/Dashboard/DashboardIndexViewModel.cs": {
+    "mtime": 1790073258.8849525,
+    "seen": 1790073299.4114652,
+    "ast_hash": "98a409e98f5f61846d85ef372b8ac600",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Models/ErrorViewModel.cs": {
+    "mtime": 1790073258.8869689,
+    "seen": 1790073299.4114678,
+    "ast_hash": "23a991087d32c2dfd24a2d4b6d97318c",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Models/Inventory/InventoryCreateUpdateViewModel.cs": {
+    "mtime": 1790073258.8890386,
+    "seen": 1790073299.4114707,
+    "ast_hash": "5571e587138f60d93161123b46886245",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Models/Inventory/InventoryDetailsViewModel.cs": {
+    "mtime": 1790073258.8912406,
+    "seen": 1790073299.4114728,
+    "ast_hash": "b540ecf20799b8f3b72b874767e36eb6",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Models/Inventory/InventoryIndexViewModel.cs": {
+    "mtime": 1790073258.8930051,
+    "seen": 1790073299.4114757,
+    "ast_hash": "f71ef9a5b04d42b521feec20e54d405e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Models/Offers/OfferIndexViewModel.cs": {
+    "mtime": 1790073258.89502,
+    "seen": 1790073299.4114785,
+    "ast_hash": "2d7c18dc1680bf29d97cd6533cb44224",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Models/Orders/OrderDetailsViewModel.cs": {
+    "mtime": 1790073258.896543,
+    "seen": 1790073299.4114807,
+    "ast_hash": "16a605f5148cbb1a5a39c06eec34dea0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Models/Orders/OrderIndexViewModel.cs": {
+    "mtime": 1790073258.898718,
+    "seen": 1790073299.4114838,
+    "ast_hash": "638ea4831ea142981ae07adb0dc34ec4",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Models/PaginatedViewModel.cs": {
+    "mtime": 1790073258.898718,
+    "seen": 1790073299.4114864,
+    "ast_hash": "5938a8cfe2b896e0659f1091a96b5148",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Models/ReferenceData/ReferenceDataCreateViewModel.cs": {
+    "mtime": 1790073258.9010987,
+    "seen": 1790073299.4114885,
+    "ast_hash": "a5a200b909939213a6db441fc85251ff",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Models/ReferenceData/ReferenceDataIndexViewModel.cs": {
+    "mtime": 1790073258.902924,
+    "seen": 1790073299.4114914,
+    "ast_hash": "5dea3fb0e6f8b5fd81a8a18f1a0cde26",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Dashboard/Index.cshtml": {
+    "mtime": 1790073258.9065254,
+    "seen": 1790073299.4114935,
+    "ast_hash": "3877a59823332e18671c7ceabdcbdf74",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Error/Index.cshtml": {
+    "mtime": 1790073258.910304,
+    "seen": 1790073299.4114962,
+    "ast_hash": "f55d7a479736d78b99faa1f6b0b5f40f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Inventory/CreateUpdate.cshtml": {
+    "mtime": 1790073258.9123323,
+    "seen": 1790073299.4114985,
+    "ast_hash": "6d5a716ff43be8c4a9f4e782d7844d96",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Inventory/Details.cshtml": {
+    "mtime": 1790073258.9168098,
+    "seen": 1790073299.4115007,
+    "ast_hash": "de837fe2f32276f9700bf43bf6cb83ea",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Inventory/Index.cshtml": {
+    "mtime": 1790073258.9190662,
+    "seen": 1790073299.4115036,
+    "ast_hash": "34e78ea2b43b7c2d669d6af45abc0adb",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Offers/Index.cshtml": {
+    "mtime": 1790073258.9190662,
+    "seen": 1790073299.4115062,
+    "ast_hash": "d35f97f7e447853b8d48232458ff1d39",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Orders/Details.cshtml": {
+    "mtime": 1790073258.9251053,
+    "seen": 1790073299.4115086,
+    "ast_hash": "e63df909b25d6a40526f81c6fcd10e34",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Orders/Index.cshtml": {
+    "mtime": 1790073258.9266188,
+    "seen": 1790073299.411511,
+    "ast_hash": "f29ba3e7b89d1afe10c8c8895f673281",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/ReferenceData/CreateUpdate.cshtml": {
+    "mtime": 1790073258.92873,
+    "seen": 1790073299.4115133,
+    "ast_hash": "7471d55c6c00a32e4328796c24d726dc",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/ReferenceData/Index.cshtml": {
+    "mtime": 1790073258.92873,
+    "seen": 1790073299.411516,
+    "ast_hash": "7a2bec1e772dcea083f004446878a985",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Shared/Error.cshtml": {
+    "mtime": 1790073258.92873,
+    "seen": 1790073299.411518,
+    "ast_hash": "6135abd2d17861a5ebdda0597ddd4f58",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Shared/_Layout.cshtml": {
+    "mtime": 1790073258.9332647,
+    "seen": 1790073299.4115207,
+    "ast_hash": "0bbe48ef4fa3cd601b62e7efdc43aefa",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Shared/_LoginPartial.cshtml": {
+    "mtime": 1790073258.9332647,
+    "seen": 1790073299.411523,
+    "ast_hash": "61f30a2745a652365ef3341c4c53712b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Shared/_MessageBanner.cshtml": {
+    "mtime": 1790073258.9379072,
+    "seen": 1790073299.4115257,
+    "ast_hash": "3f511651df43df534ef68fc19ec14ecc",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Shared/_NavBarPartial.cshtml": {
+    "mtime": 1790073258.9389625,
+    "seen": 1790073299.411528,
+    "ast_hash": "d20859ccc5c020c698f31312608d35a1",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Shared/_Paginator.cshtml": {
+    "mtime": 1790073258.9409885,
+    "seen": 1790073299.4115305,
+    "ast_hash": "5f81b2c39ad02a241ee4ed6fb5347c90",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml": {
+    "mtime": 1790073258.9409885,
+    "seen": 1790073299.4115329,
+    "ast_hash": "0a275dcdfa8429ad915ba3dafbb91fda",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Areas/Admin/Views/_ViewStart.cshtml": {
+    "mtime": 1790073258.9409885,
+    "seen": 1790073299.411535,
+    "ast_hash": "39959a7e693d5407cd1b16abe140947a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Bookstore.Web.csproj": {
+    "mtime": 1790073258.9487817,
+    "seen": 1790073299.4115376,
+    "ast_hash": "7678faae05c4d74b73135563ca981b5b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/assets/js/accounting.min.js": {
+    "mtime": 1790073259.0168765,
+    "seen": 1790073299.41154,
+    "ast_hash": "4f7e0cd725048f9e8d1b21ddd6c8f8a1",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/assets/js/modernizr.js": {
+    "mtime": 1790073259.0264728,
+    "seen": 1790073299.411543,
+    "ast_hash": "9467d477f17736cbbf7d0dbe71a21ffd",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/assets/js/popper.min.js": {
+    "mtime": 1790073259.029554,
+    "seen": 1790073299.411545,
+    "ast_hash": "70d3fda195602fe8b75e0097eed74dde",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/assets/js/sparkline-init.js": {
+    "mtime": 1790073259.037914,
+    "seen": 1790073299.4115474,
+    "ast_hash": "77382966daa681d04464697bec3d5312",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/assets/js/underscore-min.js": {
+    "mtime": 1790073259.0410004,
+    "seen": 1790073299.4115498,
+    "ast_hash": "b0e9839a6bb6f12774494fa30c06bcdf",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/assets/js/utils.js": {
+    "mtime": 1790073259.0410004,
+    "seen": 1790073299.4115524,
+    "ast_hash": "25c84f2aa02685a736a699a6c7784023",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/assets/js/vmap-init.js": {
+    "mtime": 1790073259.0464869,
+    "seen": 1790073299.4115548,
+    "ast_hash": "4f4c1229d27891715073c1f80c2441d6",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/additional-methods.js": {
+    "mtime": 1790073259.0633836,
+    "seen": 1790073299.4115574,
+    "ast_hash": "7c842b9debce62b8458428a0a7254105",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/additional-methods.min.js": {
+    "mtime": 1790073259.0686502,
+    "seen": 1790073299.4115596,
+    "ast_hash": "48babc4e826404ef8b8ca5bad48fc133",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/jquery-validation-sri.json": {
+    "mtime": 1790073259.0709267,
+    "seen": 1790073299.4115622,
+    "ast_hash": "4026f001baad01bd61a5941156af8518",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/jquery.validate.js": {
+    "mtime": 1790073259.0808702,
+    "seen": 1790073299.4115644,
+    "ast_hash": "272ed07e4108fd8d2bd2dfded9fa7f9e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/jquery.validate.min.js": {
+    "mtime": 1790073259.082888,
+    "seen": 1790073299.4115672,
+    "ast_hash": "5861a036c2de6c2df26749fe41d57605",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ar.js": {
+    "mtime": 1790073259.0892951,
+    "seen": 1790073299.4115694,
+    "ast_hash": "2e301d903b50d522aae19272946eb627",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ar.min.js": {
+    "mtime": 1790073259.092923,
+    "seen": 1790073299.411572,
+    "ast_hash": "cd1ea55fa6be32f73aa75855229b617e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_az.js": {
+    "mtime": 1790073259.0968077,
+    "seen": 1790073299.4115746,
+    "ast_hash": "bcd1c3e9078b39dc1f729d2e99b7ff3b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_az.min.js": {
+    "mtime": 1790073259.0988972,
+    "seen": 1790073299.4115767,
+    "ast_hash": "88e7fcfe68f8935bdd8c0ccc0c5321ed",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_bg.js": {
+    "mtime": 1790073259.0988972,
+    "seen": 1790073299.411579,
+    "ast_hash": "b5bdad81a7571e6ee1ee4c6bba23c7c9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_bg.min.js": {
+    "mtime": 1790073259.104191,
+    "seen": 1790073299.4115813,
+    "ast_hash": "ab56f95232af59c388bedc562c4a4264",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_bn_BD.js": {
+    "mtime": 1790073259.1068268,
+    "seen": 1790073299.4115834,
+    "ast_hash": "3d1f57ea2f7ce2634b1ccc0f7881f467",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_bn_BD.min.js": {
+    "mtime": 1790073259.1109064,
+    "seen": 1790073299.411586,
+    "ast_hash": "ea55aad2c8479688bb76352d950fb4f1",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ca.js": {
+    "mtime": 1790073259.114934,
+    "seen": 1790073299.4115884,
+    "ast_hash": "64605759677223d011426269f7bd8f51",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ca.min.js": {
+    "mtime": 1790073259.1186826,
+    "seen": 1790073299.4115906,
+    "ast_hash": "fcb645d528256c67c19b021852692212",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_cs.js": {
+    "mtime": 1790073259.1200593,
+    "seen": 1790073299.411593,
+    "ast_hash": "ca8b67c08deb47fe942a44dc1e25b84f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_cs.min.js": {
+    "mtime": 1790073259.1253524,
+    "seen": 1790073299.411595,
+    "ast_hash": "b6c25e47314ceea6934d21483e658b14",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_da.js": {
+    "mtime": 1790073259.1289556,
+    "seen": 1790073299.4115973,
+    "ast_hash": "b8b02e029655868f8929a0db8df156ca",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_da.min.js": {
+    "mtime": 1790073259.131337,
+    "seen": 1790073299.4115994,
+    "ast_hash": "17f3d62f950225e6985a24159aac6e8f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_de.js": {
+    "mtime": 1790073259.1351013,
+    "seen": 1790073299.4116018,
+    "ast_hash": "d3e02b1ab5c800098d783305292ec7de",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_de.min.js": {
+    "mtime": 1790073259.1375613,
+    "seen": 1790073299.4116037,
+    "ast_hash": "98b1632834ec91461b7fa547b382720e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_el.js": {
+    "mtime": 1790073259.1375613,
+    "seen": 1790073299.4116063,
+    "ast_hash": "a3253facba6a36fe81b3693ec8b067ce",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_el.min.js": {
+    "mtime": 1790073259.1444314,
+    "seen": 1790073299.4116085,
+    "ast_hash": "a9980f93ebeba21d90594fa9a782ff6e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_es.js": {
+    "mtime": 1790073259.1485295,
+    "seen": 1790073299.4116108,
+    "ast_hash": "562af4a832661de45f9a4561cd7d6975",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_es.min.js": {
+    "mtime": 1790073259.1518044,
+    "seen": 1790073299.4116132,
+    "ast_hash": "80c81fa7ee733c84cdc6c731fdfcad91",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_es_AR.js": {
+    "mtime": 1790073259.156593,
+    "seen": 1790073299.4116151,
+    "ast_hash": "88095ce8639ef390c5495413e11de34a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_es_AR.min.js": {
+    "mtime": 1790073259.156593,
+    "seen": 1790073299.4116175,
+    "ast_hash": "f71b35316f8050c8bc2229c041b0de8e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_es_PE.js": {
+    "mtime": 1790073259.1619997,
+    "seen": 1790073299.41162,
+    "ast_hash": "13f19113a6d171405f738bd045c3b985",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_es_PE.min.js": {
+    "mtime": 1790073259.165572,
+    "seen": 1790073299.4116228,
+    "ast_hash": "7a267eee6e7fa3ab4af8d40a5fe96e5d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_et.js": {
+    "mtime": 1790073259.1665857,
+    "seen": 1790073299.4116251,
+    "ast_hash": "02588072b2957bafd0d12dbde2fe36f2",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_et.min.js": {
+    "mtime": 1790073259.1722577,
+    "seen": 1790073299.4116275,
+    "ast_hash": "4cf0ba9066da0944ec621d7e0591e5df",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_eu.js": {
+    "mtime": 1790073259.1759014,
+    "seen": 1790073299.41163,
+    "ast_hash": "c4b268b51ae832e3bcaba8c00e127e0d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_eu.min.js": {
+    "mtime": 1790073259.1769264,
+    "seen": 1790073299.411632,
+    "ast_hash": "ef2044d4222791259525320558869677",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_fa.js": {
+    "mtime": 1790073259.1812003,
+    "seen": 1790073299.4116342,
+    "ast_hash": "800598a66aa4118a9a8918f8718ba98c",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_fa.min.js": {
+    "mtime": 1790073259.1812003,
+    "seen": 1790073299.4116366,
+    "ast_hash": "994c9ca9b8a7aadd0bc3cb5a10bd0d71",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_fi.js": {
+    "mtime": 1790073259.189627,
+    "seen": 1790073299.4116387,
+    "ast_hash": "24a1f3b4150c398ca8dd15b6bb5dbe9e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_fi.min.js": {
+    "mtime": 1790073259.1930864,
+    "seen": 1790073299.4116411,
+    "ast_hash": "30d19d8daef6485229dabf0b595614c0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_fr.js": {
+    "mtime": 1790073259.196915,
+    "seen": 1790073299.4116435,
+    "ast_hash": "94263c81b793e41144176c28c56c75d9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_fr.min.js": {
+    "mtime": 1790073259.196915,
+    "seen": 1790073299.4116457,
+    "ast_hash": "db2c1a5f0abc577253eac3bbe69136a8",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ge.js": {
+    "mtime": 1790073259.2018383,
+    "seen": 1790073299.4116518,
+    "ast_hash": "4e2283d09525b06f71763b1cb0c61085",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ge.min.js": {
+    "mtime": 1790073259.206892,
+    "seen": 1790073299.4116542,
+    "ast_hash": "6dd38af9483f16db459e27dfff69f81e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_gl.js": {
+    "mtime": 1790073259.2089665,
+    "seen": 1790073299.4116561,
+    "ast_hash": "0497a3f22355193f62bce7b887f28427",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_gl.min.js": {
+    "mtime": 1790073259.2135274,
+    "seen": 1790073299.4116588,
+    "ast_hash": "5bc54a27e0a476636bc460ef9413bbff",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_he.js": {
+    "mtime": 1790073259.2164981,
+    "seen": 1790073299.411661,
+    "ast_hash": "ab7d4d9d0d8629d1b01c1ffd359c353a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_he.min.js": {
+    "mtime": 1790073259.2202573,
+    "seen": 1790073299.4116633,
+    "ast_hash": "b16994683d133445fa9efc3c3b861eae",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_hr.js": {
+    "mtime": 1790073259.2215996,
+    "seen": 1790073299.4116657,
+    "ast_hash": "e9674fc52709ac88a6e7523f797b9db0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_hr.min.js": {
+    "mtime": 1790073259.2215996,
+    "seen": 1790073299.411668,
+    "ast_hash": "f5177c031a09e5733bc566b3aa0058cb",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_hu.js": {
+    "mtime": 1790073259.2287111,
+    "seen": 1790073299.4116702,
+    "ast_hash": "2fa425b153dfd1df63feb1ca0826521e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_hu.min.js": {
+    "mtime": 1790073259.229724,
+    "seen": 1790073299.4116724,
+    "ast_hash": "286f3747f6d074b34be013ba1c5430ab",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_hy_AM.js": {
+    "mtime": 1790073259.2349038,
+    "seen": 1790073299.4116747,
+    "ast_hash": "24b5b5a26e7b661ffc8957c850f7c54d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_hy_AM.min.js": {
+    "mtime": 1790073259.2379806,
+    "seen": 1790073299.411677,
+    "ast_hash": "5030d34bcefd8327c1246af5e8b6795c",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_id.js": {
+    "mtime": 1790073259.2379806,
+    "seen": 1790073299.4116793,
+    "ast_hash": "ed6f7bce97a1ffe1ae0526b5bd349dbf",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_id.min.js": {
+    "mtime": 1790073259.2379806,
+    "seen": 1790073299.4116812,
+    "ast_hash": "5f4e03362e58379d1d7e45bbf0dbfdd2",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_is.js": {
+    "mtime": 1790073259.246657,
+    "seen": 1790073299.4116838,
+    "ast_hash": "01d09a4426a34a374f34236df1509949",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_is.min.js": {
+    "mtime": 1790073259.246657,
+    "seen": 1790073299.4116862,
+    "ast_hash": "7e83faf6ad2ebe2f7b10cf9fbd66ba99",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_it.js": {
+    "mtime": 1790073259.246657,
+    "seen": 1790073299.4116888,
+    "ast_hash": "5b240fcf6a844a7191d752fd4e366f20",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_it.min.js": {
+    "mtime": 1790073259.2552865,
+    "seen": 1790073299.4116907,
+    "ast_hash": "497e207d3c529b0ef3be4b440c8ae935",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ja.js": {
+    "mtime": 1790073259.2588646,
+    "seen": 1790073299.411693,
+    "ast_hash": "b75008e278bf581d5a7b007b690f0d53",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ja.min.js": {
+    "mtime": 1790073259.2637167,
+    "seen": 1790073299.411695,
+    "ast_hash": "609e9236cfefd07ba07872868e65e1d1",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ka.js": {
+    "mtime": 1790073259.2666957,
+    "seen": 1790073299.4116976,
+    "ast_hash": "4dfe6d73ca4f5eeb014eef1f3b794c8f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ka.min.js": {
+    "mtime": 1790073259.268739,
+    "seen": 1790073299.4116998,
+    "ast_hash": "e24396824eeaafe11fc4a173d3749798",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_kk.js": {
+    "mtime": 1790073259.2707994,
+    "seen": 1790073299.4117022,
+    "ast_hash": "4f04df00382fbe703869569397ecd6f2",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_kk.min.js": {
+    "mtime": 1790073259.2765162,
+    "seen": 1790073299.4117045,
+    "ast_hash": "b0cadfcce30c1b92297de784a9f210bb",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ko.js": {
+    "mtime": 1790073259.278569,
+    "seen": 1790073299.411707,
+    "ast_hash": "b160dab26868357d9a4f8f8549d98036",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ko.min.js": {
+    "mtime": 1790073259.280588,
+    "seen": 1790073299.411709,
+    "ast_hash": "a326e3a7ff536c7070286f06b3b9ab81",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_lt.js": {
+    "mtime": 1790073259.2858405,
+    "seen": 1790073299.4117115,
+    "ast_hash": "5e3ff591d43776c692c3fd6babea4253",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_lt.min.js": {
+    "mtime": 1790073259.288965,
+    "seen": 1790073299.4117138,
+    "ast_hash": "d9692c4fcff42f31e91c7ee16c902aab",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_lv.js": {
+    "mtime": 1790073259.2914908,
+    "seen": 1790073299.4117157,
+    "ast_hash": "1dc518560de05a00166fd266bfb91e32",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_lv.min.js": {
+    "mtime": 1790073259.2952917,
+    "seen": 1790073299.411718,
+    "ast_hash": "972da4b15e1bf715941510d3c85ce359",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_mk.js": {
+    "mtime": 1790073259.2988532,
+    "seen": 1790073299.4117203,
+    "ast_hash": "115ad64fdcc8de95995c34a83e4d2078",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_mk.min.js": {
+    "mtime": 1790073259.3020194,
+    "seen": 1790073299.4117224,
+    "ast_hash": "5cef1e4bf9390532ba91b401004103a5",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_my.js": {
+    "mtime": 1790073259.3045602,
+    "seen": 1790073299.4117248,
+    "ast_hash": "6a7b38dfd4115c781f1aefbd4a821298",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_my.min.js": {
+    "mtime": 1790073259.3065877,
+    "seen": 1790073299.4117272,
+    "ast_hash": "74dfe647935257aeb1b6f8104cf4fd7d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_nl.js": {
+    "mtime": 1790073259.312014,
+    "seen": 1790073299.411729,
+    "ast_hash": "700b4b1c7056a70bf1eb326bc6b79c80",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_nl.min.js": {
+    "mtime": 1790073259.3165898,
+    "seen": 1790073299.4117317,
+    "ast_hash": "49b8dc1e184778703ef19af4eec49746",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_no.js": {
+    "mtime": 1790073259.3205254,
+    "seen": 1790073299.4117339,
+    "ast_hash": "90b27a2c67f3db797a17834fbebed5ba",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_no.min.js": {
+    "mtime": 1790073259.3235717,
+    "seen": 1790073299.4117358,
+    "ast_hash": "7160be4cdab9914cac741d1b97e85ab8",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_pl.js": {
+    "mtime": 1790073259.3265727,
+    "seen": 1790073299.4117382,
+    "ast_hash": "7a59577f768dbdebe03231b679d035ce",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_pl.min.js": {
+    "mtime": 1790073259.3286197,
+    "seen": 1790073299.4117403,
+    "ast_hash": "4d4d89f74eaa27bb25223771ae1e7c00",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_pt_BR.js": {
+    "mtime": 1790073259.3318865,
+    "seen": 1790073299.411743,
+    "ast_hash": "bf982b85e9fc72685ef743bd973ece50",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_pt_BR.min.js": {
+    "mtime": 1790073259.3345282,
+    "seen": 1790073299.4117453,
+    "ast_hash": "826ba40ff2a03daf96dff7291088b0b2",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_pt_PT.js": {
+    "mtime": 1790073259.3365488,
+    "seen": 1790073299.4117482,
+    "ast_hash": "a71d64403f32e697f89cbb5f895d4710",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_pt_PT.min.js": {
+    "mtime": 1790073259.3365488,
+    "seen": 1790073299.41175,
+    "ast_hash": "da87e45b7278fbf8f8a6180d55553f6d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ro.js": {
+    "mtime": 1790073259.3455014,
+    "seen": 1790073299.4117527,
+    "ast_hash": "8996f79eea78dd1ae09bf2b49a1d5e7e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ro.min.js": {
+    "mtime": 1790073259.3485692,
+    "seen": 1790073299.411755,
+    "ast_hash": "0c19461dc4606a018c76913d562d37ef",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ru.js": {
+    "mtime": 1790073259.3510451,
+    "seen": 1790073299.4117575,
+    "ast_hash": "81d802054f2ffbd4becee549324c0ce7",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ru.min.js": {
+    "mtime": 1790073259.3564868,
+    "seen": 1790073299.41176,
+    "ast_hash": "c6e5d6bf10bd3c4baaa55273bd63fb7f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_sd.js": {
+    "mtime": 1790073259.361121,
+    "seen": 1790073299.4117625,
+    "ast_hash": "a52ee0c8b2a62b6848c44e7a0a98a614",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_sd.min.js": {
+    "mtime": 1790073259.3638008,
+    "seen": 1790073299.4117644,
+    "ast_hash": "c70b81334b7ab52b25d4a618ecb58f56",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_si.js": {
+    "mtime": 1790073259.3689344,
+    "seen": 1790073299.411767,
+    "ast_hash": "04b857420863d988170f84e8efced03c",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_si.min.js": {
+    "mtime": 1790073259.37164,
+    "seen": 1790073299.4117692,
+    "ast_hash": "4324561c3311ecf056b538265a9c1e25",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_sk.js": {
+    "mtime": 1790073259.373952,
+    "seen": 1790073299.4117713,
+    "ast_hash": "a6b4139c2cb021175f6ba0f480821f90",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_sk.min.js": {
+    "mtime": 1790073259.3764849,
+    "seen": 1790073299.4117734,
+    "ast_hash": "91803c821f6ecafa7a01438c1af91d8c",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_sl.js": {
+    "mtime": 1790073259.3785734,
+    "seen": 1790073299.4117756,
+    "ast_hash": "ebd84ab0a17f8b3d5776f655f1fdd4c8",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_sl.min.js": {
+    "mtime": 1790073259.3848336,
+    "seen": 1790073299.4117777,
+    "ast_hash": "4c8f71cc348d27f2640b2252ca359add",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_sr.js": {
+    "mtime": 1790073259.3868496,
+    "seen": 1790073299.41178,
+    "ast_hash": "c167bb60d92b6bbcf99e0b2f5d762eed",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_sr.min.js": {
+    "mtime": 1790073259.3891988,
+    "seen": 1790073299.411782,
+    "ast_hash": "5b28c7e1ae128670c9f714e5fb9297d9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_sr_lat.js": {
+    "mtime": 1790073259.3951805,
+    "seen": 1790073299.4117842,
+    "ast_hash": "5d0af78680a8536caa5bcbf39841df77",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_sr_lat.min.js": {
+    "mtime": 1790073259.3966925,
+    "seen": 1790073299.4117863,
+    "ast_hash": "997ec5433b02799ec7e06a3422a73633",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_sv.js": {
+    "mtime": 1790073259.4007578,
+    "seen": 1790073299.4117885,
+    "ast_hash": "08c5b484617bab5efa9d9489c661dfb1",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_sv.min.js": {
+    "mtime": 1790073259.4032874,
+    "seen": 1790073299.4117908,
+    "ast_hash": "b85e0eea4c64d6742bfce2598a1124dd",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_th.js": {
+    "mtime": 1790073259.4086492,
+    "seen": 1790073299.4117932,
+    "ast_hash": "b7eaa44abd4e0c1132cb80680307c3a0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_th.min.js": {
+    "mtime": 1790073259.41067,
+    "seen": 1790073299.4117951,
+    "ast_hash": "a7cc31c6ac24edf71d5692935c3abb6d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_tj.js": {
+    "mtime": 1790073259.4147065,
+    "seen": 1790073299.4117975,
+    "ast_hash": "facd127bda05d1d72a2fc9c3e44d2114",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_tj.min.js": {
+    "mtime": 1790073259.417565,
+    "seen": 1790073299.4117997,
+    "ast_hash": "b3f5cff6bbb3067e16c9158693067133",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_tr.js": {
+    "mtime": 1790073259.4250286,
+    "seen": 1790073299.4118018,
+    "ast_hash": "071e58344bedb381a3b18654e385b3e1",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_tr.min.js": {
+    "mtime": 1790073259.4265468,
+    "seen": 1790073299.411804,
+    "ast_hash": "6130d73ed07d4116a89c26039ced6a59",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_uk.js": {
+    "mtime": 1790073259.4265468,
+    "seen": 1790073299.4118059,
+    "ast_hash": "54617973829ccd841b1eee1c8c0a4b7b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_uk.min.js": {
+    "mtime": 1790073259.4332478,
+    "seen": 1790073299.411808,
+    "ast_hash": "a1e0f25baf629e59685904415c6f5fd9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ur.js": {
+    "mtime": 1790073259.4387684,
+    "seen": 1790073299.4118102,
+    "ast_hash": "2e2d2e698b8ccd36e649283756f5d341",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_ur.min.js": {
+    "mtime": 1790073259.442069,
+    "seen": 1790073299.4118123,
+    "ast_hash": "bb2959d6c9618117a1bd349073a3b384",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_vi.js": {
+    "mtime": 1790073259.4440925,
+    "seen": 1790073299.4118147,
+    "ast_hash": "532cbed4f6869c1ca58886d0069beb90",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_vi.min.js": {
+    "mtime": 1790073259.4469051,
+    "seen": 1790073299.4118166,
+    "ast_hash": "dfb9b03d57ee0e29cfee22b4ac8e6ac4",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_zh.js": {
+    "mtime": 1790073259.451236,
+    "seen": 1790073299.4118185,
+    "ast_hash": "638e7defb283fa154a175ed0ac6979ad",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_zh.min.js": {
+    "mtime": 1790073259.451236,
+    "seen": 1790073299.411821,
+    "ast_hash": "ed84aa722cd2fe14deb038e5868adb70",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_zh_TW.js": {
+    "mtime": 1790073259.4569254,
+    "seen": 1790073299.4118228,
+    "ast_hash": "ecd53d56ca65cabab4ed1dafcfa326aa",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/messages_zh_TW.min.js": {
+    "mtime": 1790073259.4569254,
+    "seen": 1790073299.411825,
+    "ast_hash": "b6c13c93f00d2b6c7d6018c00dd24420",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/methods_de.js": {
+    "mtime": 1790073259.4640882,
+    "seen": 1790073299.411827,
+    "ast_hash": "482c2f0f9e64094edd0b8f42300b01d8",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/methods_de.min.js": {
+    "mtime": 1790073259.4667184,
+    "seen": 1790073299.4118292,
+    "ast_hash": "d886d454affbe107e09715c562b46f7c",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/methods_es_CL.js": {
+    "mtime": 1790073259.4688942,
+    "seen": 1790073299.4118314,
+    "ast_hash": "7ac6408793ee5204974ffadc6f7f3a31",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/methods_es_CL.min.js": {
+    "mtime": 1790073259.4717557,
+    "seen": 1790073299.4118338,
+    "ast_hash": "024d8c7f2fe1589b53f65b3324576245",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/methods_fi.js": {
+    "mtime": 1790073259.4766324,
+    "seen": 1790073299.411836,
+    "ast_hash": "c1e901914954eddd9f0bc93df8933dbf",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/methods_fi.min.js": {
+    "mtime": 1790073259.4766324,
+    "seen": 1790073299.411838,
+    "ast_hash": "b44b978935ea42721752c220f1fd442d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/methods_it.js": {
+    "mtime": 1790073259.481733,
+    "seen": 1790073299.4118402,
+    "ast_hash": "5b9f7bfb9e1b09e010cd55c519f2fb10",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/methods_it.min.js": {
+    "mtime": 1790073259.484723,
+    "seen": 1790073299.4118423,
+    "ast_hash": "024d8c7f2fe1589b53f65b3324576245",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/methods_nl.js": {
+    "mtime": 1790073259.4907491,
+    "seen": 1790073299.4118445,
+    "ast_hash": "2d1cbd7bea463619baedb2fcd455217a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/methods_nl.min.js": {
+    "mtime": 1790073259.4926405,
+    "seen": 1790073299.4118466,
+    "ast_hash": "73886b70033ba15221b93fbd70675654",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/methods_pt.js": {
+    "mtime": 1790073259.494656,
+    "seen": 1790073299.4118488,
+    "ast_hash": "ce69bf087f89c5d8ff074b849b5e536e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validate/localization/methods_pt.min.js": {
+    "mtime": 1790073259.4966662,
+    "seen": 1790073299.4118507,
+    "ast_hash": "455de168c2be1514636802c9768a1514",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js": {
+    "mtime": 1790073259.5027854,
+    "seen": 1790073299.411853,
+    "ast_hash": "2a905437ecdd58e97aad5ee4d30d3687",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js": {
+    "mtime": 1790073259.5085766,
+    "seen": 1790073299.4118552,
+    "ast_hash": "00e5caa5c85cb0efa90509048231708d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery/jquery.js": {
+    "mtime": 1790073259.5188713,
+    "seen": 1790073299.4118574,
+    "ast_hash": "1150e561f02aaa2a237a4f200face65d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery/jquery.min.js": {
+    "mtime": 1790073259.526911,
+    "seen": 1790073299.4118595,
+    "ast_hash": "cf2fbbf84281d9ecbffb4993203d543b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery/jquery.slim.js": {
+    "mtime": 1790073259.5406594,
+    "seen": 1790073299.4118617,
+    "ast_hash": "bc0c9fe15e318611a0ef8d075c81302b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/lib/jquery/jquery.slim.min.js": {
+    "mtime": 1790073259.544692,
+    "seen": 1790073299.4118638,
+    "ast_hash": "541e80b5bc224cfe384a99836e5062ec",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Controllers/AddressController.cs": {
+    "mtime": 1790073259.5566998,
+    "seen": 1790073299.4118662,
+    "ast_hash": "abe673e8aa03ac69499aec2ce13f7a7b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Controllers/AuthenticationController.cs": {
+    "mtime": 1790073259.5616448,
+    "seen": 1790073299.411868,
+    "ast_hash": "c17e595e2dacb5d089181541f0b4c3d0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Controllers/CheckoutController.cs": {
+    "mtime": 1790073259.564178,
+    "seen": 1790073299.4118705,
+    "ast_hash": "dd980b8cee4ca9ac782ee5eaff6d05e3",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Controllers/HomeController.cs": {
+    "mtime": 1790073259.5667653,
+    "seen": 1790073299.4118726,
+    "ast_hash": "89320047a34c0a14a5cedf6201b4a05a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Controllers/OrdersController.cs": {
+    "mtime": 1790073259.5703073,
+    "seen": 1790073299.4118748,
+    "ast_hash": "a6ec082037f4fc456934e39ca8431f78",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Controllers/ResaleController.cs": {
+    "mtime": 1790073259.5729835,
+    "seen": 1790073299.4118772,
+    "ast_hash": "6bf9ac2b5eb31f26f405a5d48bf6c807",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Controllers/SearchController.cs": {
+    "mtime": 1790073259.576516,
+    "seen": 1790073299.4118795,
+    "ast_hash": "37d86a6c546534b592fc9d1acbbb0ab0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Controllers/ShoppingCartController.cs": {
+    "mtime": 1790073259.5805964,
+    "seen": 1790073299.4118814,
+    "ast_hash": "16c76076e645a136dd57ceeac6703671",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Controllers/WishlistController.cs": {
+    "mtime": 1790073259.5826187,
+    "seen": 1790073299.4118836,
+    "ast_hash": "b9d04f4bdb0bf134b189dcf1a602935b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Global.asax.cs": {
+    "mtime": 1790073259.6006746,
+    "seen": 1790073299.4118857,
+    "ast_hash": "027351e0863fb6078f8bfc9726a897f7",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Helpers/ClaimsPrincipalExtensions.cs": {
+    "mtime": 1790073259.606727,
+    "seen": 1790073299.411888,
+    "ast_hash": "d3f4582da040f28a12b4f32273fb0683",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Helpers/ControllerExtensions.cs": {
+    "mtime": 1790073259.608788,
+    "seen": 1790073299.41189,
+    "ast_hash": "e7a681e006dd27b7f4fa9b21d645f932",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Helpers/HttpContextExtensions.cs": {
+    "mtime": 1790073259.6132166,
+    "seen": 1790073299.411892,
+    "ast_hash": "128b5239886658ee52ed65b682c7d654",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Helpers/IOwinRequestExtensions.cs": {
+    "mtime": 1790073259.615238,
+    "seen": 1790073299.4118943,
+    "ast_hash": "dee6cc8bfa12720aef5db997030aa912",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Helpers/ImageTypesAttribute.cs": {
+    "mtime": 1790073259.6188517,
+    "seen": 1790073299.4118962,
+    "ast_hash": "3212d50554d11f31c1eeb8818301a3d0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Helpers/IntExtensions.cs": {
+    "mtime": 1790073259.6235428,
+    "seen": 1790073299.4118986,
+    "ast_hash": "29f3f08cd263bf40b0286d2e872b8f86",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Helpers/LocalAuthenticationMiddleware.cs": {
+    "mtime": 1790073259.6255531,
+    "seen": 1790073299.4119008,
+    "ast_hash": "f6ccfe7fb0f9ee77d43c47f22a5ad524",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Helpers/MaxFileSizeAttribute.cs": {
+    "mtime": 1790073259.6316376,
+    "seen": 1790073299.4119027,
+    "ast_hash": "ebb8d463bdc98b26aad06c912cde7b7b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Helpers/MvcHelpers.cs": {
+    "mtime": 1790073259.6336527,
+    "seen": 1790073299.4119048,
+    "ast_hash": "2fe8758c0ef0fb5f3e3a9e34a616cbbf",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/Address/AddressCreateUpdateViewModel.cs": {
+    "mtime": 1790073259.6465757,
+    "seen": 1790073299.4119067,
+    "ast_hash": "0cb5fd737e37a1ce7644bca61aa680ee",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/Address/AddressIndexViewModel.cs": {
+    "mtime": 1790073259.64862,
+    "seen": 1790073299.411909,
+    "ast_hash": "794b1a2a5811fdb91dc578a54ba9cb22",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/Checkout/CheckoutFinishedViewModel.cs": {
+    "mtime": 1790073259.6540196,
+    "seen": 1790073299.4119115,
+    "ast_hash": "66628fadad3f4754dd465e67abcb9a76",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/Checkout/CheckoutIndexViewModel.cs": {
+    "mtime": 1790073259.6565514,
+    "seen": 1790073299.4119136,
+    "ast_hash": "f1774565b8e4b0080181c4438f69fe80",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/ErrorViewModel.cs": {
+    "mtime": 1790073259.6565514,
+    "seen": 1790073299.4119158,
+    "ast_hash": "36d742e623ab31133cd5055a7091c144",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/Home/HomeIndexViewModel.cs": {
+    "mtime": 1790073259.6641483,
+    "seen": 1790073299.4119182,
+    "ast_hash": "87a89e9c8341c8bdc73337ecf74563a3",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/Orders/OrderDetailsViewModel.cs": {
+    "mtime": 1790073259.6667516,
+    "seen": 1790073299.41192,
+    "ast_hash": "cd613539e3658675817c9ab840cdeddc",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/Orders/OrderIndexViewModel.cs": {
+    "mtime": 1790073259.6716712,
+    "seen": 1790073299.4119222,
+    "ast_hash": "e69b70f4590f5afac9924e1af11d1644",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/PaginatedViewModel.cs": {
+    "mtime": 1790073259.6765616,
+    "seen": 1790073299.4119241,
+    "ast_hash": "65e7501ba5ec9a0e75c3a5cd71ba33a1",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/Resale/ResaleCreateViewModel.cs": {
+    "mtime": 1790073259.6765616,
+    "seen": 1790073299.4119263,
+    "ast_hash": "e3152857f55b7ba43aae6aa74effeaa9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/Resale/ResaleIndexViewModel.cs": {
+    "mtime": 1790073259.6846926,
+    "seen": 1790073299.4119287,
+    "ast_hash": "f95341d36eecc2b2e71c95422a7bc5f9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/Search/SearchDetailsViewModel.cs": {
+    "mtime": 1790073259.6897988,
+    "seen": 1790073299.4119306,
+    "ast_hash": "1cf5849bfb2adcf629762cae6a8b3004",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/Search/SearchIndexViewModel.cs": {
+    "mtime": 1790073259.693838,
+    "seen": 1790073299.4119327,
+    "ast_hash": "bcb8435a6a0a412ebb2d20cd91ef63ff",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/ShoppingCart/ShoppingCartIndexViewModel.cs": {
+    "mtime": 1790073259.6987052,
+    "seen": 1790073299.4119346,
+    "ast_hash": "b7dda27f93fc035df9b9172fae7d8f6a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Models/Wishlist/WishlistIndexViewModel.cs": {
+    "mtime": 1790073259.7026677,
+    "seen": 1790073299.4119368,
+    "ast_hash": "1596a194ff78f9485c70c9b8ae3ac8b7",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Properties/AssemblyInfo.cs": {
+    "mtime": 1790073259.706594,
+    "seen": 1790073299.4119391,
+    "ast_hash": "fba2b4eed571dada8fd6cce02faed3c9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-3.7.1.intellisense.js": {
+    "mtime": 1790073259.7188787,
+    "seen": 1790073299.4119415,
+    "ast_hash": "8eb04620e876b59daed4d1abcfb53ea5",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-3.7.1.js": {
+    "mtime": 1790073259.7267377,
+    "seen": 1790073299.4119437,
+    "ast_hash": "12e87d2f3a4c8b347ab13a0764d420a3",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-3.7.1.min.js": {
+    "mtime": 1790073259.7311082,
+    "seen": 1790073299.4119458,
+    "ast_hash": "2c872dbe60f4ba70fb85356113d8b35e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-3.7.1.slim.js": {
+    "mtime": 1790073259.742829,
+    "seen": 1790073299.411948,
+    "ast_hash": "d5e71829ecdc0456818e3b93f57b14a0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-3.7.1.slim.min.js": {
+    "mtime": 1790073259.7465916,
+    "seen": 1790073299.41195,
+    "ast_hash": "af73dd50819a5fc22dff8b0ed2229d6c",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/additional-methods.js": {
+    "mtime": 1790073259.7548275,
+    "seen": 1790073299.411952,
+    "ast_hash": "30f19cff368e4f408299a1bcf268ef20",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/additional-methods.min.js": {
+    "mtime": 1790073259.758907,
+    "seen": 1790073299.4119546,
+    "ast_hash": "8a9f80d26adfcc24829e8f1ca8b457b8",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/jquery-validation-sri.json": {
+    "mtime": 1790073259.7629254,
+    "seen": 1790073299.4119568,
+    "ast_hash": "d18ac2f06e467e6fdb888e645960c0e7",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/jquery.validate.js": {
+    "mtime": 1790073259.764438,
+    "seen": 1790073299.411959,
+    "ast_hash": "4398f4b198fc55b165715e3faa4ebce0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/jquery.validate.min.js": {
+    "mtime": 1790073259.7685142,
+    "seen": 1790073299.4119613,
+    "ast_hash": "657659ae5a85bc6fbb1654a3e6123976",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ar.js": {
+    "mtime": 1790073259.772549,
+    "seen": 1790073299.4119637,
+    "ast_hash": "3f93291065fb83fe0625ef681447d04d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ar.min.js": {
+    "mtime": 1790073259.7765834,
+    "seen": 1790073299.4119656,
+    "ast_hash": "7686d3b1e380ced9896e664ff920f336",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_az.js": {
+    "mtime": 1790073259.780672,
+    "seen": 1790073299.411968,
+    "ast_hash": "a9e97a81937fdcc3bcc35e72eb7c4849",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_az.min.js": {
+    "mtime": 1790073259.780672,
+    "seen": 1790073299.4119701,
+    "ast_hash": "981fe9b36be8f8e71b9019a207b2670d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_bg.js": {
+    "mtime": 1790073259.7864842,
+    "seen": 1790073299.411972,
+    "ast_hash": "ee8da10b2bb76acc8ea66fd98f9ac547",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_bg.min.js": {
+    "mtime": 1790073259.7906237,
+    "seen": 1790073299.411974,
+    "ast_hash": "43fcec749a9de335bc428fc5c3299421",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_bn_BD.js": {
+    "mtime": 1790073259.7906237,
+    "seen": 1790073299.4119759,
+    "ast_hash": "00c0f46478730d834565cf9e7d7fd812",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_bn_BD.min.js": {
+    "mtime": 1790073259.7960413,
+    "seen": 1790073299.4119782,
+    "ast_hash": "9218200ed296db1ea8a60e669a1c9df7",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ca.js": {
+    "mtime": 1790073259.7965486,
+    "seen": 1790073299.4119804,
+    "ast_hash": "69a7be184fb0abe7de4eabe0ac7fde46",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ca.min.js": {
+    "mtime": 1790073259.7965486,
+    "seen": 1790073299.4119823,
+    "ast_hash": "d87a9fdcc03650d3d7108db8faa575fe",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_cs.js": {
+    "mtime": 1790073259.803171,
+    "seen": 1790073299.4119847,
+    "ast_hash": "173d432ebffe98f7541894d96b24a893",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_cs.min.js": {
+    "mtime": 1790073259.8051887,
+    "seen": 1790073299.4119866,
+    "ast_hash": "a60810ee94c781dc4f83040f9c487ead",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_da.js": {
+    "mtime": 1790073259.808779,
+    "seen": 1790073299.4119887,
+    "ast_hash": "ff9ceaff749cb47b0e8d8c4511692715",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_da.min.js": {
+    "mtime": 1790073259.8105352,
+    "seen": 1790073299.4119911,
+    "ast_hash": "405dee080860029d2b76c6f19c26ada3",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_de.js": {
+    "mtime": 1790073259.8136716,
+    "seen": 1790073299.4119933,
+    "ast_hash": "cb30ba87be0fdb240aaab9a6d333df65",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_de.min.js": {
+    "mtime": 1790073259.81653,
+    "seen": 1790073299.4119954,
+    "ast_hash": "38899163a527527698259d290bcdbada",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_el.js": {
+    "mtime": 1790073259.8191867,
+    "seen": 1790073299.4119976,
+    "ast_hash": "25e6fa4461386eb32ae8221812fa6695",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_el.min.js": {
+    "mtime": 1790073259.8191867,
+    "seen": 1790073299.412,
+    "ast_hash": "946434d4fb316709f5495df400bc8c88",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_es.js": {
+    "mtime": 1790073259.8191867,
+    "seen": 1790073299.412002,
+    "ast_hash": "769a2892a3192bb126801a6a381b76b4",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_es.min.js": {
+    "mtime": 1790073259.8276298,
+    "seen": 1790073299.4120047,
+    "ast_hash": "ce5ba2273ffeb22ca691e16e2a9821f9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_es_AR.js": {
+    "mtime": 1790073259.8276298,
+    "seen": 1790073299.4120064,
+    "ast_hash": "180d8b5d707ae27b940e62b7e3b8cd7f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_es_AR.min.js": {
+    "mtime": 1790073259.8276298,
+    "seen": 1790073299.4120085,
+    "ast_hash": "904208932322476c8ffa5f6bcfc1c2e3",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_es_PE.js": {
+    "mtime": 1790073259.8276298,
+    "seen": 1790073299.412011,
+    "ast_hash": "f62634374641504a86a969bd919918d9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_es_PE.min.js": {
+    "mtime": 1790073259.8276298,
+    "seen": 1790073299.4120138,
+    "ast_hash": "9b05b15870385b05a99b0e8b9423d7d7",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_et.js": {
+    "mtime": 1790073259.8366022,
+    "seen": 1790073299.4120164,
+    "ast_hash": "b05c4e137e451072a0a6f338a40c9964",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_et.min.js": {
+    "mtime": 1790073259.8366022,
+    "seen": 1790073299.4120185,
+    "ast_hash": "5ed34bf5604c81d820371c794ebd6b9b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_eu.js": {
+    "mtime": 1790073259.8366022,
+    "seen": 1790073299.4120207,
+    "ast_hash": "3189d5fd643a3c0a972bb61d24a6e8dd",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_eu.min.js": {
+    "mtime": 1790073259.8441215,
+    "seen": 1790073299.4120228,
+    "ast_hash": "fa741db700156bf99737a65d29dfe0ff",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_fa.js": {
+    "mtime": 1790073259.846781,
+    "seen": 1790073299.4120245,
+    "ast_hash": "c7cfe81e4dc3e209f2c87c1e85a03922",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_fa.min.js": {
+    "mtime": 1790073259.8529265,
+    "seen": 1790073299.412027,
+    "ast_hash": "1a0a03c185da443119e466be83604eec",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_fi.js": {
+    "mtime": 1790073259.8565612,
+    "seen": 1790073299.4120505,
+    "ast_hash": "ceedc31433f34512bb2e491fed590551",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_fi.min.js": {
+    "mtime": 1790073259.8586445,
+    "seen": 1790073299.412053,
+    "ast_hash": "d27619e792beb08e27db355eda19de0d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_fr.js": {
+    "mtime": 1790073259.860737,
+    "seen": 1790073299.4120553,
+    "ast_hash": "cbc92d82cd6a55bf2fd3288645815baa",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_fr.min.js": {
+    "mtime": 1790073259.8643768,
+    "seen": 1790073299.4120574,
+    "ast_hash": "a124ba5c98698b660b58e1720ae7fcef",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ge.js": {
+    "mtime": 1790073259.8669434,
+    "seen": 1790073299.41206,
+    "ast_hash": "72eae8a4420ffbbd2fc95725d04819c7",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ge.min.js": {
+    "mtime": 1790073259.8705516,
+    "seen": 1790073299.4120622,
+    "ast_hash": "f4b6c07e7035ff12b5286acf6c251f2b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_gl.js": {
+    "mtime": 1790073259.8705516,
+    "seen": 1790073299.412064,
+    "ast_hash": "ef29125e7855965b5f92a513aaa1025a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_gl.min.js": {
+    "mtime": 1790073259.8765035,
+    "seen": 1790073299.4120662,
+    "ast_hash": "7429b036978bf8ac4d77a94494a88595",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_he.js": {
+    "mtime": 1790073259.8765035,
+    "seen": 1790073299.4120684,
+    "ast_hash": "f3248bcf091e8a89f8869bcc6ca738e8",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_he.min.js": {
+    "mtime": 1790073259.8765035,
+    "seen": 1790073299.4120708,
+    "ast_hash": "c6741638d505f4be84dfe8ed318b5a76",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_hr.js": {
+    "mtime": 1790073259.8835075,
+    "seen": 1790073299.4120727,
+    "ast_hash": "e84aecc94ddbd03478d613cdd64a6cbc",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_hr.min.js": {
+    "mtime": 1790073259.8886166,
+    "seen": 1790073299.412075,
+    "ast_hash": "93469c314e0482874168fe1d30ac3b5a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_hu.js": {
+    "mtime": 1790073259.8886166,
+    "seen": 1790073299.412077,
+    "ast_hash": "7c884cebc9a94c99bd3cf107e94b64ae",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_hu.min.js": {
+    "mtime": 1790073259.8927367,
+    "seen": 1790073299.412079,
+    "ast_hash": "0d8fb022215b265891ac416afb735045",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_hy_AM.js": {
+    "mtime": 1790073259.8965623,
+    "seen": 1790073299.4120815,
+    "ast_hash": "7ac1a1745b7647be141f006ae4eedda8",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_hy_AM.min.js": {
+    "mtime": 1790073259.9008358,
+    "seen": 1790073299.4120836,
+    "ast_hash": "54603de27fde49a29728c7310e9d448e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_id.js": {
+    "mtime": 1790073259.9008358,
+    "seen": 1790073299.412086,
+    "ast_hash": "7b022f99e9bf043cb197e6e41bd8f36f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_id.min.js": {
+    "mtime": 1790073259.9008358,
+    "seen": 1790073299.412088,
+    "ast_hash": "6a6d752096dcd0b05a6e598cb3785cf1",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_is.js": {
+    "mtime": 1790073259.9069574,
+    "seen": 1790073299.41209,
+    "ast_hash": "c1aa5cfa86b72694660d7a214fdfbab0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_is.min.js": {
+    "mtime": 1790073259.908518,
+    "seen": 1790073299.4120922,
+    "ast_hash": "f8372b0fd86136fd32a0391001c61270",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_it.js": {
+    "mtime": 1790073259.9152937,
+    "seen": 1790073299.412094,
+    "ast_hash": "4cd810bfbd30dc0c1875a67fcfcbc350",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_it.min.js": {
+    "mtime": 1790073259.9190903,
+    "seen": 1790073299.4120963,
+    "ast_hash": "a19cb13f4a6666783b3efe149c021aaf",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ja.js": {
+    "mtime": 1790073259.924672,
+    "seen": 1790073299.4120984,
+    "ast_hash": "6022eb095475ada76b7d46b6c4d7e4a4",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ja.min.js": {
+    "mtime": 1790073259.928874,
+    "seen": 1790073299.4121006,
+    "ast_hash": "8ea812fc250926261057b7574dcba9f9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ka.js": {
+    "mtime": 1790073259.9320264,
+    "seen": 1790073299.412103,
+    "ast_hash": "a5f69e6dedee2dfa15da2e8f13e9c46d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ka.min.js": {
+    "mtime": 1790073259.93658,
+    "seen": 1790073299.4121048,
+    "ast_hash": "38b546d31527eb8e3b4b214ffe51d6ce",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_kk.js": {
+    "mtime": 1790073259.9392495,
+    "seen": 1790073299.412107,
+    "ast_hash": "8b43e3bf80fcdc5074c8e8122b0f247c",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_kk.min.js": {
+    "mtime": 1790073259.9419672,
+    "seen": 1790073299.4121091,
+    "ast_hash": "84917268824aa281777dd2842a39ee86",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ko.js": {
+    "mtime": 1790073259.9439993,
+    "seen": 1790073299.4121113,
+    "ast_hash": "5a3f5a86a004f2d61eccf35720dd8850",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ko.min.js": {
+    "mtime": 1790073259.9487884,
+    "seen": 1790073299.4121134,
+    "ast_hash": "cc0e77837921eba9aab62f3e1578eeef",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_lt.js": {
+    "mtime": 1790073259.9498005,
+    "seen": 1790073299.4121158,
+    "ast_hash": "19eb13ab0ce0fb4ef38d91bf08527e61",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_lt.min.js": {
+    "mtime": 1790073259.9498005,
+    "seen": 1790073299.412118,
+    "ast_hash": "fda9cf37e9ad8847cc99cc93bd7eaefc",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_lv.js": {
+    "mtime": 1790073259.9569025,
+    "seen": 1790073299.4121203,
+    "ast_hash": "f7cfdaaf709bda56e78f0c01f115f488",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_lv.min.js": {
+    "mtime": 1790073259.9585128,
+    "seen": 1790073299.412122,
+    "ast_hash": "b78ff8fc2a8e70ad9ae3fa7f54abd1e8",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_mk.js": {
+    "mtime": 1790073259.9605305,
+    "seen": 1790073299.4121244,
+    "ast_hash": "1bda5cf6076fc8c16c78ea8815997cb0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_mk.min.js": {
+    "mtime": 1790073259.9669237,
+    "seen": 1790073299.4121263,
+    "ast_hash": "a28666acaa1047840f0d1cb05abe2ba5",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_my.js": {
+    "mtime": 1790073259.9710038,
+    "seen": 1790073299.4121284,
+    "ast_hash": "bb506a380e0d81553cd11d609249e38c",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_my.min.js": {
+    "mtime": 1790073259.9745326,
+    "seen": 1790073299.4121306,
+    "ast_hash": "76dd5ed4a296dc6b3d69f4b8d4a2bd5f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_nl.js": {
+    "mtime": 1790073259.9765587,
+    "seen": 1790073299.4121325,
+    "ast_hash": "17856ba93e8faeab2083a995278abfcc",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_nl.min.js": {
+    "mtime": 1790073259.9765587,
+    "seen": 1790073299.412135,
+    "ast_hash": "57f9338245de69c9e8bb4417556f3a1f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_no.js": {
+    "mtime": 1790073259.982627,
+    "seen": 1790073299.4121373,
+    "ast_hash": "f3ff2f561db6442dc014022f70538cbd",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_no.min.js": {
+    "mtime": 1790073259.982627,
+    "seen": 1790073299.4121392,
+    "ast_hash": "eb030815a0cdc2dd38bf96d6c82a9cfb",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_pl.js": {
+    "mtime": 1790073259.9893856,
+    "seen": 1790073299.4121413,
+    "ast_hash": "e07a13b27c70088fe3d71b1a9f49fcee",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_pl.min.js": {
+    "mtime": 1790073259.9929886,
+    "seen": 1790073299.4121437,
+    "ast_hash": "9ce3cac6fc628cdc7935b51307b205a9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_pt_BR.js": {
+    "mtime": 1790073259.9950051,
+    "seen": 1790073299.4121459,
+    "ast_hash": "a69e5047a23cea62e938fe56d19d2dfa",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_pt_BR.min.js": {
+    "mtime": 1790073259.996521,
+    "seen": 1790073299.4121482,
+    "ast_hash": "0176fee0b450f80fd24c0b3cfe6e5c7e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_pt_PT.js": {
+    "mtime": 1790073259.9985845,
+    "seen": 1790073299.4121506,
+    "ast_hash": "4abf6163744355c2f38326ef70415fb0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_pt_PT.min.js": {
+    "mtime": 1790073260.001862,
+    "seen": 1790073299.4121525,
+    "ast_hash": "dd6d16869e888de51c00e6742bcb3fa8",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ro.js": {
+    "mtime": 1790073260.0089438,
+    "seen": 1790073299.412155,
+    "ast_hash": "8562ae8a2dc1a2f34a515cf20e31018d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ro.min.js": {
+    "mtime": 1790073260.0109644,
+    "seen": 1790073299.4121568,
+    "ast_hash": "e81db584ac47b79c5c87a3cd41344698",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ru.js": {
+    "mtime": 1790073260.0149927,
+    "seen": 1790073299.4121594,
+    "ast_hash": "4577e99985a75f209b518188391b52a7",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ru.min.js": {
+    "mtime": 1790073260.0185685,
+    "seen": 1790073299.4121618,
+    "ast_hash": "345e4200b8a15882bd544b4702fef682",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_sd.js": {
+    "mtime": 1790073260.0225744,
+    "seen": 1790073299.4121642,
+    "ast_hash": "24afb01c5516c03c3471be2e097709b1",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_sd.min.js": {
+    "mtime": 1790073260.024593,
+    "seen": 1790073299.4121664,
+    "ast_hash": "37570d398addc9cc2543328631c9a9c9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_si.js": {
+    "mtime": 1790073260.0286846,
+    "seen": 1790073299.4121687,
+    "ast_hash": "023db113b5245ae2a6efbc0ccde9b72b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_si.min.js": {
+    "mtime": 1790073260.030696,
+    "seen": 1790073299.4121706,
+    "ast_hash": "e7cc7a43502e9daf2326c7148075d980",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_sk.js": {
+    "mtime": 1790073260.030696,
+    "seen": 1790073299.4121728,
+    "ast_hash": "71a1083905b0dc3bea6a4267b546557e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_sk.min.js": {
+    "mtime": 1790073260.0369582,
+    "seen": 1790073299.4121752,
+    "ast_hash": "253d052b31297775282e75b2f68b8e91",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_sl.js": {
+    "mtime": 1790073260.0400577,
+    "seen": 1790073299.4121768,
+    "ast_hash": "8d008f9caa4dc37b7f7b89afd03e52b2",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_sl.min.js": {
+    "mtime": 1790073260.0427086,
+    "seen": 1790073299.4121792,
+    "ast_hash": "a800511d10e2f04e3860422a3d1b72c7",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_sr.js": {
+    "mtime": 1790073260.0466707,
+    "seen": 1790073299.4121816,
+    "ast_hash": "9537ebbfd3e686b75e46a222b6e42a90",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_sr.min.js": {
+    "mtime": 1790073260.050456,
+    "seen": 1790073299.4121838,
+    "ast_hash": "d78e25a5406c222d7d67c3173607e0de",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_sr_lat.js": {
+    "mtime": 1790073260.055781,
+    "seen": 1790073299.412186,
+    "ast_hash": "75cbcebea39d638c2d263f78bad13228",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_sr_lat.min.js": {
+    "mtime": 1790073260.0583794,
+    "seen": 1790073299.412188,
+    "ast_hash": "5e7760e498ba9c305798791d1ca20228",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_sv.js": {
+    "mtime": 1790073260.0606873,
+    "seen": 1790073299.4121902,
+    "ast_hash": "70b98377f168b3bfe43537ffa73a60d0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_sv.min.js": {
+    "mtime": 1790073260.0641835,
+    "seen": 1790073299.4121923,
+    "ast_hash": "b0b0c4771b598f5ecb74fc86e0265d4f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_th.js": {
+    "mtime": 1790073260.066911,
+    "seen": 1790073299.4121947,
+    "ast_hash": "782a5a2a73de316b1d7915e88f796608",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_th.min.js": {
+    "mtime": 1790073260.0690331,
+    "seen": 1790073299.4121969,
+    "ast_hash": "382fcf82807851a6947dd3ca47899b28",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_tj.js": {
+    "mtime": 1790073260.0690331,
+    "seen": 1790073299.412199,
+    "ast_hash": "4401df30bc2ba9ec683d0254a228699a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_tj.min.js": {
+    "mtime": 1790073260.0767574,
+    "seen": 1790073299.4122012,
+    "ast_hash": "c902bc0372af7bde140c39568b9f8032",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_tr.js": {
+    "mtime": 1790073260.0800664,
+    "seen": 1790073299.412203,
+    "ast_hash": "4e446df955d3f2c9e8be0db8c713961a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_tr.min.js": {
+    "mtime": 1790073260.0834587,
+    "seen": 1790073299.4122052,
+    "ast_hash": "49e932abb4da23e0abf95457400f80cb",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_uk.js": {
+    "mtime": 1790073260.0866876,
+    "seen": 1790073299.4122074,
+    "ast_hash": "bd4468aaf30b45582673594dcf8e38f7",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_uk.min.js": {
+    "mtime": 1790073260.0924246,
+    "seen": 1790073299.4122097,
+    "ast_hash": "c94409fc11cb387cf740ee16d15bad33",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ur.js": {
+    "mtime": 1790073260.0924246,
+    "seen": 1790073299.412212,
+    "ast_hash": "5e12155921ef363e8c63d05387bc62f9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_ur.min.js": {
+    "mtime": 1790073260.0976207,
+    "seen": 1790073299.412214,
+    "ast_hash": "5c1a5fa4a5fffcedcecea54d061e3e0c",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_vi.js": {
+    "mtime": 1790073260.1008973,
+    "seen": 1790073299.412216,
+    "ast_hash": "70f2b899fe30dae9034d8d82b00688e8",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_vi.min.js": {
+    "mtime": 1790073260.104558,
+    "seen": 1790073299.4122183,
+    "ast_hash": "f2c74a8174c0015bf8e628744dbe07c8",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_zh.js": {
+    "mtime": 1790073260.1087658,
+    "seen": 1790073299.4122205,
+    "ast_hash": "830c2d1ff4af24bfa0d471aa741f5a7f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_zh.min.js": {
+    "mtime": 1790073260.1130116,
+    "seen": 1790073299.4122226,
+    "ast_hash": "bcbf9d69440bcc5eb14c28aa1b4a3405",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_zh_TW.js": {
+    "mtime": 1790073260.115662,
+    "seen": 1790073299.4122248,
+    "ast_hash": "6d4595dfe378ed75e56041fa7fed1738",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/messages_zh_TW.min.js": {
+    "mtime": 1790073260.1182046,
+    "seen": 1790073299.4122274,
+    "ast_hash": "4a55ff25e5bd645412a5ee8f4f8f0186",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/methods_de.js": {
+    "mtime": 1790073260.1233184,
+    "seen": 1790073299.4122295,
+    "ast_hash": "35ed3ddf7c92946cd6f4dcca44452eb6",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/methods_de.min.js": {
+    "mtime": 1790073260.1266267,
+    "seen": 1790073299.4122317,
+    "ast_hash": "a34a45acd9ece9d5115502565ded64bc",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/methods_es_CL.js": {
+    "mtime": 1790073260.1303866,
+    "seen": 1790073299.412234,
+    "ast_hash": "82d29bbee0da3977ecee831146e393bb",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/methods_es_CL.min.js": {
+    "mtime": 1790073260.133303,
+    "seen": 1790073299.412236,
+    "ast_hash": "068b81014cb48c1a87cf837d82323b23",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/methods_fi.js": {
+    "mtime": 1790073260.13662,
+    "seen": 1790073299.4122381,
+    "ast_hash": "bff0b3d14c611902353e4d28559877bb",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/methods_fi.min.js": {
+    "mtime": 1790073260.1430652,
+    "seen": 1790073299.41224,
+    "ast_hash": "a03f647a37b6fe4133b1e838ee4b0418",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/methods_it.js": {
+    "mtime": 1790073260.143707,
+    "seen": 1790073299.4122422,
+    "ast_hash": "88d5ffedb6d8982816820c0090e27664",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/methods_it.min.js": {
+    "mtime": 1790073260.1465294,
+    "seen": 1790073299.4122446,
+    "ast_hash": "068b81014cb48c1a87cf837d82323b23",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/methods_nl.js": {
+    "mtime": 1790073260.150622,
+    "seen": 1790073299.4122467,
+    "ast_hash": "2ae308190532eb84a5383aa43faa813d",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/methods_nl.min.js": {
+    "mtime": 1790073260.1527903,
+    "seen": 1790073299.4122488,
+    "ast_hash": "ff1e05c5fd4b2a027c662345c6090efb",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/methods_pt.js": {
+    "mtime": 1790073260.1586764,
+    "seen": 1790073299.4122515,
+    "ast_hash": "1f920fa337d211bf2cf60b68548f94de",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validate/localization/methods_pt.min.js": {
+    "mtime": 1790073260.1615262,
+    "seen": 1790073299.4122536,
+    "ast_hash": "2c1982212721201f3b8c8380d9815fdf",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js": {
+    "mtime": 1790073260.167449,
+    "seen": 1790073299.412256,
+    "ast_hash": "1f28f365587d33a55c3cd80b7c52d7f4",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js": {
+    "mtime": 1790073260.1714184,
+    "seen": 1790073299.4122581,
+    "ast_hash": "7e60400801e87f5c95031c4e7fc79168",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery.validate-vsdoc.js": {
+    "mtime": 1790073260.1766965,
+    "seen": 1790073299.4122605,
+    "ast_hash": "a0770fd5d8b55e7db605e475e5a647d0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery.validate.js": {
+    "mtime": 1790073260.1778264,
+    "seen": 1790073299.412263,
+    "ast_hash": "d3cc566e0477da9ad1a5f78e6ae6c637",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery.validate.min.js": {
+    "mtime": 1790073260.1846619,
+    "seen": 1790073299.4122658,
+    "ast_hash": "f15265a2f8ea0a5b33d365b32582a700",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery/jquery.js": {
+    "mtime": 1790073260.1927626,
+    "seen": 1790073299.412268,
+    "ast_hash": "e9fb7bec5f9bba0f8740ebf1fff7742a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery/jquery.min.js": {
+    "mtime": 1790073260.199988,
+    "seen": 1790073299.4122703,
+    "ast_hash": "0c113f73b209b146473ed0a7a59307b1",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery/jquery.slim.js": {
+    "mtime": 1790073260.212816,
+    "seen": 1790073299.4122732,
+    "ast_hash": "859a27deb7bbb3afc32f727547e7d1ef",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/jquery/jquery.slim.min.js": {
+    "mtime": 1790073260.2185636,
+    "seen": 1790073299.4122756,
+    "ast_hash": "336d07e28810cef19394ea5a77ec4e78",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Scripts/modernizr-2.8.3.js": {
+    "mtime": 1790073260.230619,
+    "seen": 1790073299.4122777,
+    "ast_hash": "c1ff1650bba6e39089834e708129d723",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Startup.cs": {
+    "mtime": 1790073260.234868,
+    "seen": 1790073299.4122803,
+    "ast_hash": "354dc7a600275c707bb9e8547d3022e1",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Address/CreateUpdate.cshtml": {
+    "mtime": 1790073260.2453413,
+    "seen": 1790073299.4122822,
+    "ast_hash": "ee6878d7af7bebef97f2b32c84b883cc",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Address/Index.cshtml": {
+    "mtime": 1790073260.2489154,
+    "seen": 1790073299.4122841,
+    "ast_hash": "dac2c8e15823e22f35cfb34f937f6f5a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Checkout/Finished.cshtml": {
+    "mtime": 1790073260.2489154,
+    "seen": 1790073299.4122865,
+    "ast_hash": "367aa8bdd1db46bb7ece08ce9430f0cd",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Checkout/Index.cshtml": {
+    "mtime": 1790073260.2566571,
+    "seen": 1790073299.4122891,
+    "ast_hash": "ac4d808d444676727ebfda6fb19c2411",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Home/Index.cshtml": {
+    "mtime": 1790073260.2609172,
+    "seen": 1790073299.412291,
+    "ast_hash": "245add3432052e6ec00fba760c0e977b",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Home/Privacy.cshtml": {
+    "mtime": 1790073260.2609172,
+    "seen": 1790073299.4122932,
+    "ast_hash": "892377dd5f6332d269c5c7e84e9a6bd9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Orders/Details.cshtml": {
+    "mtime": 1790073260.266605,
+    "seen": 1790073299.4122953,
+    "ast_hash": "8efbcc92d66565f3bf16ee203ea3d5e9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Orders/Index.cshtml": {
+    "mtime": 1790073260.2701793,
+    "seen": 1790073299.4122977,
+    "ast_hash": "d82cf3a40c2e0b208124c1be003389e7",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Resale/Create.cshtml": {
+    "mtime": 1790073260.2767565,
+    "seen": 1790073299.4123,
+    "ast_hash": "df8435f40647f40f44449365f4d061a4",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Resale/Index.cshtml": {
+    "mtime": 1790073260.2767565,
+    "seen": 1790073299.412302,
+    "ast_hash": "a55fe82ca64490d5927b7e4ad0057448",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Search/Details.cshtml": {
+    "mtime": 1790073260.2821596,
+    "seen": 1790073299.4123042,
+    "ast_hash": "1c21ea6696e836a2d86d80bd5259b359",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Search/Index.cshtml": {
+    "mtime": 1790073260.2866392,
+    "seen": 1790073299.412306,
+    "ast_hash": "103e1174096bf376a77adf0ead67f8f0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Shared/Error.cshtml": {
+    "mtime": 1790073260.291934,
+    "seen": 1790073299.4123085,
+    "ast_hash": "da3624858b1cfae47e0c72669a96a52e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Shared/_Layout.cshtml": {
+    "mtime": 1790073260.2939653,
+    "seen": 1790073299.4123106,
+    "ast_hash": "8a9ee01090cc7b9ab4cf37f18c596863",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Shared/_LoginPartial.cshtml": {
+    "mtime": 1790073260.2969184,
+    "seen": 1790073299.4123125,
+    "ast_hash": "e252b70b0a3441fe9ca193f48ccede6e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Shared/_NavBarPartial.cshtml": {
+    "mtime": 1790073260.2999885,
+    "seen": 1790073299.412315,
+    "ast_hash": "53f045e8824edb49bb8429cf279c945e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Shared/_Notification.cshtml": {
+    "mtime": 1790073260.2999885,
+    "seen": 1790073299.4123173,
+    "ast_hash": "160c1e3f89137fbfe85bd4b02eb2b30a",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Shared/_Paginator.cshtml": {
+    "mtime": 1790073260.2999885,
+    "seen": 1790073299.4123192,
+    "ast_hash": "958921c8d2779f8d368f66ca2bab1b2f",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Shared/_ValidationScriptsPartial.cshtml": {
+    "mtime": 1790073260.3069425,
+    "seen": 1790073299.4123218,
+    "ast_hash": "eb68caae774c3cd10399efb9af5677a0",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/ShoppingCart/Error.cshtml": {
+    "mtime": 1790073260.3085074,
+    "seen": 1790073299.412324,
+    "ast_hash": "aa42d9a9c7edf95b09be92d1e4d67763",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/ShoppingCart/Index.cshtml": {
+    "mtime": 1790073260.3143282,
+    "seen": 1790073299.4123259,
+    "ast_hash": "3eb22da85e7a9b9b8a7d4763999c65a3",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/Wishlist/Index.cshtml": {
+    "mtime": 1790073260.3209825,
+    "seen": 1790073299.4123282,
+    "ast_hash": "b890f6451ba65abc081a663a9a1ab4e9",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/_ViewImports.cshtml": {
+    "mtime": 1790073260.3251972,
+    "seen": 1790073299.4123302,
+    "ast_hash": "a4a0a269d5763b661388da582f626f60",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Views/_ViewStart.cshtml": {
+    "mtime": 1790073260.3267155,
+    "seen": 1790073299.4123325,
+    "ast_hash": "68ba2b36d7199ceefa25ba0e3a4b594d",
+    "semantic_hash": ""
+  },
+  "cdk.json": {
+    "mtime": 1790073260.3447978,
+    "seen": 1790073299.4123347,
+    "ast_hash": "49135c35e99fa63ba0469f329160ced3",
+    "semantic_hash": ""
+  },
+  "config-scripts/Update-ConnectionString.ps1": {
+    "mtime": 1790073260.348852,
+    "seen": 1790073299.4123363,
+    "ast_hash": "85762ce304cbdb459549e616de945f4d",
+    "semantic_hash": ""
+  },
+  "CODE_OF_CONDUCT.md": {
+    "mtime": 1790073258.6929708,
+    "seen": 1790073299.4123387,
+    "ast_hash": "26f76e074423384a52a9e6f81dc2ed7a",
+    "semantic_hash": ""
+  },
+  "CONTRIBUTING.md": {
+    "mtime": 1790073258.6929708,
+    "seen": 1790073299.4123409,
+    "ast_hash": "89a0c2fe235c1d0488cb9cc4a4fba548",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1790073258.696496,
+    "seen": 1790073299.4123433,
+    "ast_hash": "8c3876cbcef163f05faf07ccdcf93243",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/Images/coverimages/1001jokes.png": {
+    "mtime": 1790073258.9590268,
+    "seen": 1790073299.4123454,
+    "ast_hash": "8bc7718308890936656b802097c53c73",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/Images/coverimages/alonewiththestars.png": {
+    "mtime": 1790073258.9590268,
+    "seen": 1790073299.4123476,
+    "ast_hash": "0e06529b51fa8fbb786edddc4e25ef26",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/Images/coverimages/apocalypse.png": {
+    "mtime": 1790073258.963144,
+    "seen": 1790073299.41235,
+    "ast_hash": "e2332be27fa50eefb63378092f82be4e",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/Images/coverimages/childrenofiron.png": {
+    "mtime": 1790073258.9649673,
+    "seen": 1790073299.4123526,
+    "ast_hash": "9f6217e70031b122773cce313b6cdd16",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/Images/coverimages/girlinthepolaroid.png": {
+    "mtime": 1790073258.966984,
+    "seen": 1790073299.4123545,
+    "ast_hash": "74fbccb5041a02edd6eeb7ca021b1081",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/Images/coverimages/goldinthedark.png": {
+    "mtime": 1790073258.966984,
+    "seen": 1790073299.4123566,
+    "ast_hash": "94d73936dc2d14d0a63101a5c4347dd3",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/Images/coverimages/leaguesofsmoke.png": {
+    "mtime": 1790073258.966984,
+    "seen": 1790073299.412359,
+    "ast_hash": "b90458dff1bb9ce3eed725b31267c362",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/Images/coverimages/mysearchformeaning.png": {
+    "mtime": 1790073258.9730787,
+    "seen": 1790073299.412361,
+    "ast_hash": "f4c8a26a34e20b967c5747d6a60b9107",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/Images/default_c.jpg": {
+    "mtime": 1790073258.9753098,
+    "seen": 1790073299.4123633,
+    "ast_hash": "401c4613efb1dc2be1f5ecdabd9ebc87",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/Images/privacy.jpg": {
+    "mtime": 1790073258.9768236,
+    "seen": 1790073299.412366,
+    "ast_hash": "97dde7d8f6f77c35c5927d99b32dcaf2",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/Images/register.jpg": {
+    "mtime": 1790073258.9768236,
+    "seen": 1790073299.4123683,
+    "ast_hash": "a80a01fe9dbd94f6e46844ef3cae0822",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/Images/wishlist.jpg": {
+    "mtime": 1790073258.982839,
+    "seen": 1790073299.4123707,
+    "ast_hash": "9f5012a1fad3ad327e805ad4700740e7",
+    "semantic_hash": ""
+  },
+  "app/Bookstore.Web/Content/assets/images/32px.png": {
+    "mtime": 1790073259.015359,
+    "seen": 1790073299.4123733,
+    "ast_hash": "1e709cf21da6ce37c907c877d23805ba",
+    "semantic_hash": ""
+  }
+}

@@ -1,4 +1,4 @@
-﻿using Amazon.SimpleSystemsManagement;
+using Amazon.SimpleSystemsManagement;
 using Amazon.SimpleSystemsManagement.Model;
 using BobsBookstoreClassic.Data;
 using Bookstore.Common;
@@ -54,6 +54,9 @@ namespace Bookstore.Web
                     }
                 }
             }
+
+            // Resolve the database engine switch (Data:Provider) exactly once at startup; defaults to SqlServer when absent.
+            BookstoreConfiguration.GetDatabaseProvider();
         }
     }
 }
