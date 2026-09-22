@@ -6,9 +6,9 @@
 |---|---|
 | Run ID | 499021d5-d12b-4180-aba8-18445a2fc3dd |
 | Repository | https://github.com/mayankpunghal-sf/bobs-used-bookstore-classic.git |
-| Branch | pending — filled in by the git phase after this report is written |
-| Commit SHA | pending — filled in by the git phase |
-| Pull request | pending — filled in by the git phase after this report is written |
+| Branch | `porting/dual-db-port-499021d5-20260922T111142Z` |
+| Commit SHA | 5518225cd20f7963fdf0d25effb7438487b20f50 |
+| Pull request | https://github.com/mayankpunghal-sf/bobs-used-bookstore-classic/pull/7 |
 | Confidence score | 91 — 91% of applicable checklist items passed, adjusted for unresolved flags and build warnings (formula and inputs in §10) |
 | Build status | fail under `dotnet build` (pre-existing toolchain incompatibility, see §10); Bookstore.Data compiles clean under the repo's real toolchain (VS 2026 MSBuild `/restore`) with all ported code |
 | Iteration | 0 (first Validate pass) |
