@@ -1,4 +1,4 @@
-﻿using Amazon.SimpleSystemsManagement;
+using Amazon.SimpleSystemsManagement;
 using Amazon.SimpleSystemsManagement.Model;
 using BobsBookstoreClassic.Data;
 using Bookstore.Common;
@@ -24,6 +24,11 @@ namespace Bookstore.Web
                     var response = client.GetParameter(request);
 
                     BookstoreConfiguration.AddSetting(response.Parameter.Name.Replace($"{rootPath}{databasePath}/", string.Empty), response.Parameter.Value);
+
+                    var postgreSqlRequest = new GetParameterRequest { Name = $"{rootPath}{databasePath}/ConnectionStrings/BookstoreDatabaseConnection_PostgreSql" };
+                    var postgreSqlResponse = client.GetParameter(postgreSqlRequest);
+
+                    BookstoreConfiguration.AddConnectionString("BookstoreDatabaseConnection_PostgreSql", postgreSqlResponse.Parameter.Value);
                 }
             }
 
