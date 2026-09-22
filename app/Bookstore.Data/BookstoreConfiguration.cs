@@ -1,9 +1,15 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 
 namespace BobsBookstoreClassic.Data
 {
+    public enum DatabaseProvider
+    {
+        SqlServer,
+        PostgreSql
+    }
+
     public sealed class BookstoreConfiguration
     {
         private static readonly Lazy<BookstoreConfiguration> Lazy = new Lazy<BookstoreConfiguration>(() => new BookstoreConfiguration());
@@ -57,6 +63,26 @@ namespace BobsBookstoreClassic.Data
         public static string GetConnectionString(string key)
         {
             return Instance._connectionStrings[key];
+        }
+
+        public static DatabaseProvider GetDatabaseProvider()
+        {
+            string value;
+            return Instance._appSettings.TryGetValue("Data:Provider", out value) && !string.IsNullOrWhiteSpace(value)
+                ? ParseDatabaseProvider(value)
+                : DatabaseProvider.SqlServer;
+        }
+
+        private static DatabaseProvider ParseDatabaseProvider(string value)
+        {
+            DatabaseProvider parsed;
+
+            if (!Enum.TryParse(value, ignoreCase: true, result: out parsed) || !Enum.IsDefined(typeof(DatabaseProvider), parsed))
+            {
+                throw new InvalidOperationException($"Invalid Data:Provider value '{value}'. Valid values: SqlServer, PostgreSql.");
+            }
+
+            return parsed;
         }
 
     }

@@ -1,4 +1,6 @@
-﻿using System.IO;
+using System.Data.Common;
+using System.Data.SqlClient;
+using System.IO;
 using System.Reflection;
 using System.Web;
 using System.Web.Mvc;
@@ -21,6 +23,7 @@ using Bookstore.Domain.Offers;
 using Bookstore.Domain.Orders;
 using Bookstore.Domain.ReferenceData;
 using Bookstore.Web.Helpers;
+using Npgsql;
 using Owin;
 
 namespace Bookstore.Web
@@ -42,8 +45,21 @@ namespace Bookstore.Web
             builder.RegisterType<ShoppingCartService>().As<IShoppingCartService>();
             builder.RegisterType<ImageResizeService>().As<IImageResizeService>();
 
-            var connectionString = BookstoreConfiguration.GetConnectionString("BookstoreDatabaseConnection");
-            builder.RegisterType<ApplicationDbContext>().WithParameter("connectionString", connectionString).InstancePerRequest();
+            // Provider resolved exactly once at composition-root startup (R7);
+            // the connection itself is built per request.
+            var databaseProvider = BookstoreConfiguration.GetDatabaseProvider();
+
+            builder.Register(c =>
+            {
+                var connectionString = BookstoreConfiguration.GetConnectionString(
+                    databaseProvider == DatabaseProvider.PostgreSql ? "AppDb_PostgreSql" : "BookstoreDatabaseConnection");
+
+                DbConnection connection = databaseProvider == DatabaseProvider.PostgreSql
+                    ? (DbConnection)new NpgsqlConnection(connectionString)
+                    : new SqlConnection(connectionString);
+
+                return new ApplicationDbContext(connection, true);
+            }).InstancePerRequest();
 
             builder.RegisterType<CustomerRepository>().As<ICustomerRepository>();
             builder.RegisterType<AddressRepository>().As<IAddressRepository>();
