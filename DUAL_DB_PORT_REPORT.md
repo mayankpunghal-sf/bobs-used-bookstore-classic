@@ -6,9 +6,9 @@
 |---|---|
 | Run ID | 3cd05ae6-7ca1-4aa6-b2d9-cc4bdac3b43d |
 | Repository | https://github.com/sfdevops/bobs-used-bookstore-classic.git (fresh checkout, HEAD `5c7c0ae`) |
-| Branch | porting/dual-db-port-3cd05ae6 |
-| Commit SHA | pending — filled in by the git phase after this report is written |
-| Pull request | pending — filled in by the git phase after this report is written |
+| Branch | porting/dual-db-port-3cd05ae6-20260922T150939Z |
+| Commit SHA | dc9bde2fe38405bdea0d63258b30f6aa05387cde |
+| Pull request | https://github.com/mayankpunghal-sf/bobs-used-bookstore-classic/pull/9 (PR #9) |
 | Confidence score | 91 — 91% of applicable checklist items passed, adjusted for unresolved flags and build warnings (see §10) |
 | Build status | pass — compile-only, port scope (see §10 scope note) |
 | Iteration | 1 (one Iterate pass; see §12) |
