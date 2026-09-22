@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace Bookstore.Domain
@@ -15,6 +15,10 @@ namespace Bookstore.Domain
 
         [Timestamp]
         public byte[] RowVersion { get; set; }
+
+        // PostgreSQL-only optimistic-concurrency token backed by the xmin system
+        // column (R9 option b); ignored by the SQL Server model (see ApplicationDbContext).
+        public uint xmin { get; set; }
 
         public bool IsNewEntity()
         {
